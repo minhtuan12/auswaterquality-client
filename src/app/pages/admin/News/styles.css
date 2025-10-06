@@ -1,0 +1,14 @@
+.wjh-admin__news-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wjh-admin__news-editor .ql-editor {
+    min-height: 400px;
+}
+
+.wjh-news__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

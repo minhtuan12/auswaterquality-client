@@ -1,0 +1,218 @@
+.wjh-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    height: var(--header-height);
+}
+
+.wjh-header__left-logo {
+    height: var(--header-height);
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.wjh-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wjh-header-wrapper>a {
+    display: flex;
+    align-items: center;
+}
+
+.wjh-header__right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1 1 auto;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .wjh-header__right {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 0px;
+        padding-top: 15px;
+    }
+
+    .wjh-navbar__item {
+        padding: 8px;
+    }
+
+    .wjh-footer__links {
+        padding-top: 0;
+    }
+
+    .wjh-header-wrapper {
+        align-items: unset;
+        justify-content: unset;
+    }
+}
+
+.wjh-header__actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.wjh-navbar-container {
+    padding: 0 !important;
+}
+
+.wjh-navbar__item {
+    padding: 18px 0 14px 20px !important;
+    color: var(--bs-primary);
+}
+
+.wjh-navbar #basic-nav-dropdown {
+    padding: 18px 0 14px 20px !important;
+    color: var(--bs-primary);
+}
+
+.dropdown-hover-wrapper:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.wjh-navbar__item a::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.wjh-main {
+    min-height: 100vh;
+    margin-top: var(--header-height);
+}
+
+.wjh-footer {
+    background-color: var(--surface);
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, .1);
+    padding: 36px 0;
+    position: relative;
+}
+
+.wjh-footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.wjh-footer__links h5 {
+    color: var(--bs-primary)
+}
+
+.wjh-footer__links p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.wjh-footer__sponsors p {
+    text-align: justify;
+    color: var(--bs-primary);
+}
+
+.wjh-footer__partners {
+    padding-left: 12px !important;
+    margin-bottom: 12px;
+}
+
+.wjh-footer__partners span {
+    color: darkgreen
+}
+
+.wjh-footer__partners h5 {
+    color: var(--bs-primary);
+}
+
+.wjh-footer__copy-right {
+    display: flex;
+    align-items: flex-end;
+    color: var(--bs-secondary)
+}
+
+.wjh-footer__bottom-right {
+    color: var(--bs-primary)
+}
+
+.wjh-footer__bottom-right p,
+.wjh-footer__copy-right p {
+    margin: 0;
+}
+
+.wjh-footer__social-title {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.wjh-footer__social-list img {
+    width: 1.5rem;
+}
+
+.wjh-footer-line {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg,
+            #f1b25e,
+            #9c581a,
+            #502f19,
+            #30d5ff,
+            #0077b6,
+            #30d5ff,
+            #502f19);
+    background-size: 400% 100%;
+    animation: moveGradient 5s linear infinite;
+    border-radius: 2px;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wjh-header__right {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 0px;
+        padding-top: 30px;
+    }
+
+    .wjh-navbar__item {
+        padding: 8px;
+    }
+
+    .wjh-footer__links {
+        padding-top: 0;
+    }
+
+    .wjh-header-wrapper {
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    .wjh-footer__partners {
+        padding-left: 100px !important;
+        margin-bottom: 0;
+    }
+}

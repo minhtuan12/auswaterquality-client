@@ -1,0 +1,1821 @@
+[
+    {
+        "_id": "89288a0c-af84-4dd0-ae84-338d74393f87",
+        "type": "aesthetic",
+        "name": "246Trichlorophenol",
+        "displayName": "2,4,6-trichlorophenol",
+        "threshold1_11": 0.002,
+        "units": "mg/l"
+    },
+    {
+        "_id": "31907e3a-984d-438d-b6b5-8b6fedc58f9d",
+        "type": "aesthetic",
+        "name": "Aluminium",
+        "displayName": "Aluminium",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "3f604ded-d820-47b4-824f-729c71b0ce7b",
+        "type": "aesthetic",
+        "name": "AluminiumAS",
+        "displayName": "Aluminium (Acid-soluble)",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "61150a60-b84e-4e65-b34d-52756ceea623",
+        "type": "aesthetic",
+        "name": "AluminiumICPMS",
+        "displayName": "Aluminium (ICPMS)",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "129f6a26-5f63-49a8-89be-e99857cf289d",
+        "type": "aesthetic",
+        "name": "AluminiumICPMSFILT",
+        "displayName": "Aluminium (ICPMS, filtered)",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "c68bbc9b-f88f-4738-834a-96baad8316b6",
+        "type": "aesthetic",
+        "name": "AluminiumReactive",
+        "displayName": "Aluminium (Reactive)",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "4ca9bc19-7c5b-4c69-9e9a-184390a450a4",
+        "type": "aesthetic",
+        "name": "AluminiumTotal",
+        "displayName": "Aluminium (Total)",
+        "threshold1_11": 0.2,
+        "threshold1_04": 0.2,
+        "threshold1_96": 0.2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "3ba2d933-d022-45e3-bdcc-73272cdd6cdf",
+        "type": "aesthetic",
+        "name": "Ammonia",
+        "displayName": "Ammonia",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "0d807bbc-fa24-40c2-93f2-807ee2de6da1",
+        "type": "aesthetic",
+        "name": "AmmoniaFree",
+        "displayName": "Ammonia (Free)",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "e84b306d-3d7f-41a1-9b5f-d73487409fd3",
+        "type": "aesthetic",
+        "name": "Chloride",
+        "displayName": "Chloride",
+        "threshold1_11": 250,
+        "threshold1_04": 250,
+        "threshold1_96": 250,
+        "units": "mg/L"
+    },
+    {
+        "_id": "2d37edf3-e15f-4c4c-a454-0277e333c4e6",
+        "type": "aesthetic",
+        "name": "Chlorine",
+        "displayName": "Chlorine",
+        "threshold1_11": 0.6,
+        "threshold1_04": 0.6,
+        "units": "mg/L"
+    },
+    {
+        "_id": "2e20022a-00e4-470d-863d-cf556a9b0be1",
+        "type": "aesthetic",
+        "name": "ChlorineFree",
+        "displayName": "Chlorine (Free)",
+        "threshold1_11": 0.6,
+        "threshold1_04": 0.6,
+        "units": "mg/L"
+    },
+    {
+        "_id": "b3177a87-cba7-42d4-8319-e12c662b5f32",
+        "type": "aesthetic",
+        "name": "Colour",
+        "displayName": "Colour",
+        "threshold1_11": 15,
+        "threshold1_04": 15,
+        "units": "HU"
+    },
+    {
+        "_id": "cc90912d-1579-446d-86a2-5a2c43a1d87f",
+        "type": "aesthetic",
+        "name": "ColourApparent",
+        "displayName": "Colour (Apparent)",
+        "threshold1_11": 15,
+        "threshold1_04": 15,
+        "units": "HU"
+    },
+    {
+        "_id": "7e54c86c-7595-4ccc-8543-d75467fbfebf",
+        "type": "aesthetic",
+        "name": "Copper",
+        "displayName": "Copper",
+        "threshold1_11": 1,
+        "threshold1_04": 1,
+        "threshold1_96": 1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "d415c50f-a2ea-4ba0-9c11-aac33aa97269",
+        "type": "aesthetic",
+        "name": "CopperICPMS",
+        "displayName": "Copper (ICPMS)",
+        "threshold1_11": 1,
+        "threshold1_04": 1,
+        "threshold1_96": 1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "17e9b7a8-4289-4a7b-819f-0fce81e62e1e",
+        "type": "aesthetic",
+        "name": "DO",
+        "displayName": "Dissolved Oxygen",
+        "threshold1_11": 85,
+        "units": "mg/l"
+    },
+    {
+        "_id": "a40c405b-f105-45d0-a5f8-eb0896de1e57",
+        "type": "aesthetic",
+        "name": "Hardness",
+        "displayName": "Hardness",
+        "threshold1_11": 200,
+        "threshold2_11": 500,
+        "threshold1_04": 200,
+        "threshold1_96": 200,
+        "units": "mg/L"
+    },
+    {
+        "_id": "0d6b6764-7a8a-4ff9-bf6e-66f6c3a26444",
+        "type": "aesthetic",
+        "name": "Iodine",
+        "displayName": "Iodine",
+        "threshold1_11": 0.15,
+        "threshold1_04": 0.15,
+        "units": "mg/l"
+    },
+    {
+        "_id": "83c42040-c5ad-4130-bd35-94317a18a17b",
+        "type": "aesthetic",
+        "name": "Iron",
+        "displayName": "Iron",
+        "threshold1_11": 0.3,
+        "threshold1_04": 0.3,
+        "threshold1_96": 0.3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "0edc8e8b-8079-4d0d-8ea3-a7e3805ea9e9",
+        "type": "aesthetic",
+        "name": "IronICPMS",
+        "displayName": "Iron (ICPMS)",
+        "threshold1_11": 0.3,
+        "threshold1_04": 0.3,
+        "threshold1_96": 0.3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "31988d1e-eaa4-4b48-acf4-120d9cffd869",
+        "type": "aesthetic",
+        "name": "IronSoluble",
+        "displayName": "Iron (Soluble)",
+        "threshold1_11": 0.3,
+        "threshold1_04": 0.3,
+        "threshold1_96": 0.3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "1bf2b2a8-9250-4533-94a0-9bb5aa709bb3",
+        "type": "aesthetic",
+        "name": "Manganese",
+        "displayName": "Manganese",
+        "threshold1_11": 0.1,
+        "threshold1_04": 0.1,
+        "threshold1_96": 0.1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "71c02b73-d381-4016-aaa7-dd03c78ab147",
+        "type": "aesthetic",
+        "name": "pH",
+        "displayName": "pH",
+        "threshold1_11": 6.5,
+        "threshold2_11": 8.5,
+        "threshold1_04": 6.5,
+        "threshold2_04": 8.5,
+        "threshold1_96": 6.5,
+        "threshold2_96": 8.5,
+        "units": "pH unit"
+    },
+    {
+        "_id": "245fcbad-6103-4bee-a99a-18068f8ea0eb",
+        "type": "aesthetic",
+        "name": "pHfield",
+        "displayName": "pH (Field)",
+        "threshold1_11": 6.5,
+        "threshold2_11": 8.5,
+        "threshold1_04": 6.5,
+        "threshold2_04": 8.5,
+        "threshold1_96": 6.5,
+        "threshold2_96": 8.5,
+        "units": "pH unit"
+    },
+    {
+        "_id": "d1227a0a-899e-4c5c-ba70-9d69092a42df",
+        "type": "aesthetic",
+        "name": "Silica",
+        "displayName": "Silica",
+        "threshold1_11": 80,
+        "units": "mg/L"
+    },
+    {
+        "_id": "6c1adbb8-ae62-47ba-9a45-8602bc6094b7",
+        "type": "aesthetic",
+        "name": "SilicaICP",
+        "displayName": "Silica (ICP)",
+        "threshold1_11": 80,
+        "units": "mg/L"
+    },
+    {
+        "_id": "15066a13-c178-47a5-a4fd-23148e7dc2da",
+        "type": "aesthetic",
+        "name": "Sodium",
+        "displayName": "Sodium",
+        "threshold1_11": 180,
+        "threshold1_04": 180,
+        "threshold1_96": 180,
+        "units": "mg/L"
+    },
+    {
+        "_id": "9732d005-0994-4fcd-af84-1907fe63831f",
+        "type": "aesthetic",
+        "name": "Sulfate",
+        "displayName": "Sulfate",
+        "threshold1_11": 250,
+        "threshold1_04": 250,
+        "threshold1_96": 500,
+        "units": "mg/L"
+    },
+    {
+        "_id": "bace7422-e390-4fa0-8a1c-503a99ba72c0",
+        "type": "aesthetic",
+        "name": "TDS",
+        "displayName": "Total Dissolved Solids",
+        "threshold1_11": 600,
+        "threshold2_11": 900,
+        "threshold3_11": 1200,
+        "threshold1_04": 500,
+        "threshold2_04": 1000,
+        "threshold1_96": 800,
+        "units": "mg/L"
+    },
+    {
+        "_id": "3fb57330-27c5-4c80-8cf3-332e78719d75",
+        "type": "aesthetic",
+        "name": "Turbidity",
+        "displayName": "Turbidity",
+        "threshold1_11": 5,
+        "threshold1_04": 5,
+        "units": "NTU"
+    },
+    {
+        "_id": "3a7dd70d-4ec9-43a0-be10-f58b8d661761",
+        "type": "aesthetic",
+        "name": "Zinc",
+        "displayName": "Zinc",
+        "threshold1_11": 3,
+        "threshold1_04": 3,
+        "threshold1_96": 3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "9f3bfcd2-04b8-43d6-bcd3-be39d237045e",
+        "type": "aesthetic",
+        "name": "ZincICPMS",
+        "displayName": "Zinc (ICPMS)",
+        "threshold1_11": 3,
+        "threshold1_04": 3,
+        "threshold1_96": 3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "1ec4ddbe-88d3-4540-8993-5157a1dd4e6b",
+        "type": "health",
+        "name": "11Dichloroethene",
+        "displayName": "1,1-Dichloroethene",
+        "threshold1_11": 0.03,
+        "units": "mg/l"
+    },
+    {
+        "_id": "1441c01a-5987-454f-acbd-ee7003040bfd",
+        "type": "health",
+        "name": "12Dichloroethane",
+        "displayName": "1,2-Dichloroethane",
+        "threshold1_11": 0.003,
+        "units": "mg/l"
+    },
+    {
+        "_id": "9ecae52f-a5e0-4fc6-8d58-2b42d60ffcd0",
+        "type": "health",
+        "name": "246Trichlorophenol",
+        "displayName": "2,4,6-Trichlorophenol",
+        "threshold1_11": 0.02,
+        "units": "mg/l"
+    },
+    {
+        "_id": "6191eeb0-b62a-4d20-b0c1-973438ae427c",
+        "type": "health",
+        "name": "24D",
+        "displayName": "2,4-Dichlorophenoxyacetic acid (2,4-D)",
+        "threshold1_11": 0.03,
+        "units": "mg/l"
+    },
+    {
+        "_id": "ae6aa902-93c8-4507-960d-b688b775dedd",
+        "type": "health",
+        "name": "44DDT",
+        "displayName": "4,4-DDT",
+        "threshold1_11": 0.02
+    },
+    {
+        "_id": "47299e51-41fc-4c07-add9-3b9e75fc653a",
+        "type": "health",
+        "name": "Acrylamide",
+        "displayName": "Acrylamide",
+        "threshold1_11": 0.0002
+    },
+    {
+        "_id": "7cdc7f8a-9119-4814-a6d2-610ba8fe442a",
+        "type": "health",
+        "name": "Aldrin",
+        "displayName": "Aldrin",
+        "threshold1_11": 0.0003,
+        "units": "mg/l"
+    },
+    {
+        "_id": "79181364-fb3d-4fe7-8972-3b770acec094",
+        "type": "health",
+        "name": "AldrinDieldrin",
+        "displayName": "Aldrin&Dieldrin",
+        "threshold1_11": 0.0003
+    },
+    {
+        "_id": "85bc7151-4cf8-45fe-82f4-eb7ac7174a5b",
+        "type": "health",
+        "name": "Amitrole",
+        "displayName": "Amitrole",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "753cd523-5612-403c-aa75-4171456e9288",
+        "type": "health",
+        "name": "Antimony",
+        "displayName": "Antimony",
+        "threshold1_11": 0.003,
+        "threshold1_04": 0.003,
+        "threshold1_96": 0.003,
+        "units": "mg/L"
+    },
+    {
+        "_id": "a1e3e174-5dd7-4a76-81e5-dd352e2ecb85",
+        "type": "health",
+        "name": "AntimonyICPMS",
+        "displayName": "Antimony (ICPMS)",
+        "threshold1_11": 0.003,
+        "threshold1_04": 0.003,
+        "threshold1_96": 0.003,
+        "units": "mg/L"
+    },
+    {
+        "_id": "03dfdd73-2ec8-4dd2-ac90-1f98f2cbe1b5",
+        "type": "health",
+        "name": "Arsenic",
+        "displayName": "Arsenic",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.007,
+        "threshold1_96": 0.007,
+        "units": "mg/L"
+    },
+    {
+        "_id": "1de5f20d-941f-40cc-af85-0f5834cf9a75",
+        "type": "health",
+        "name": "ArsenicICPMS",
+        "displayName": "Arsenic (ICPMS)",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.007,
+        "threshold1_96": 0.007,
+        "units": "mg/L"
+    },
+    {
+        "_id": "cac6d194-0869-4854-b60e-6defa20e0f99",
+        "type": "health",
+        "name": "Atrazine",
+        "displayName": "Atrazine",
+        "threshold1_11": 0.02
+    },
+    {
+        "_id": "b9f0a7b0-9951-4696-976c-5c56cdbfa843",
+        "type": "health",
+        "name": "Barium",
+        "displayName": "Barium",
+        "threshold1_11": 2,
+        "threshold1_04": 0.7,
+        "threshold1_96": 0.7,
+        "units": "mg/L"
+    },
+    {
+        "_id": "735170ac-c5f0-421a-8305-6324b8e1293f",
+        "type": "health",
+        "name": "Benzene",
+        "displayName": "Benzene",
+        "threshold1_11": 0.001,
+        "units": "mg/l"
+    },
+    {
+        "_id": "044c5816-aec3-46e7-8fa7-2eba5324f183",
+        "type": "health",
+        "name": "Benzo",
+        "displayName": "Benzo",
+        "threshold1_11": 0.00001
+    },
+    {
+        "_id": "a35449d7-c5be-4ea6-915e-44894e5884d5",
+        "type": "health",
+        "name": "Beryllium",
+        "displayName": "Beryllium",
+        "threshold1_11": 0.06,
+        "units": "mg/L"
+    },
+    {
+        "_id": "5ffbb341-9f77-4a09-99fc-8f262d63f52d",
+        "type": "health",
+        "name": "BerylliumICPMS",
+        "displayName": "Beryllium (ICPMS)",
+        "threshold1_11": 0.06,
+        "units": "mg/L"
+    },
+    {
+        "_id": "312592c2-372b-42a3-81f0-c096d84c7097",
+        "type": "health",
+        "name": "Boron",
+        "displayName": "Boron",
+        "threshold1_11": 4,
+        "threshold1_04": 4,
+        "threshold1_96": 4,
+        "units": "mg/L"
+    },
+    {
+        "_id": "d792ccf9-a9b6-4003-bf4b-8e16788d09a0",
+        "type": "health",
+        "name": "BoronICPMS",
+        "displayName": "Boron (ICPMS)",
+        "threshold1_11": 4,
+        "units": "mg/l"
+    },
+    {
+        "_id": "d495d675-d681-4cc4-af28-15d6a403f875",
+        "type": "health",
+        "name": "Broethyl",
+        "displayName": "Broethyl",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "6eca3b71-c812-430e-87db-dc4183d4894d",
+        "type": "health",
+        "name": "Bromate",
+        "displayName": "Bromate",
+        "threshold1_11": 0.02,
+        "units": "mg/l"
+    },
+    {
+        "_id": "fc33f65c-d207-4a47-8b9c-e14babf7085f",
+        "type": "health",
+        "name": "BromateIC",
+        "displayName": "Bromate (IC)",
+        "threshold1_11": 0.02,
+        "units": "mg/l"
+    },
+    {
+        "_id": "54833660-237d-43f7-bbf3-fa5b15fec008",
+        "type": "health",
+        "name": "Cadmium",
+        "displayName": "Cadmium",
+        "threshold1_11": 0.002,
+        "threshold1_04": 0.002,
+        "threshold1_96": 0.002,
+        "units": "mg/L"
+    },
+    {
+        "_id": "ec9687ce-2c4e-45ae-a55a-189598440ef9",
+        "type": "health",
+        "name": "CadmiumICPMS",
+        "displayName": "Cadmium (ICPMS)",
+        "threshold1_11": 0.002,
+        "threshold1_04": 0.002,
+        "threshold1_96": 0.002,
+        "units": "mg/L"
+    },
+    {
+        "_id": "11b34986-10cc-43dd-8fdd-59a5ba786462",
+        "type": "health",
+        "name": "Carbofenothion",
+        "displayName": "Carbofenothion",
+        "threshold1_11": 0.0005
+    },
+    {
+        "_id": "80ab1deb-4819-4239-87da-5001494e00c3",
+        "type": "health",
+        "name": "CarbonTetrachloride",
+        "displayName": "Carbon Tetrachloride",
+        "threshold1_11": 0.003,
+        "threshold1_04": 0.002,
+        "threshold1_96": 0.002,
+        "units": "mg/L"
+    },
+    {
+        "_id": "5f906c71-c407-42af-a9b7-ebf580143b03",
+        "type": "health",
+        "name": "Chlordane",
+        "displayName": "Chlordane",
+        "threshold1_11": 0.002,
+        "threshold1_04": 0.002,
+        "threshold1_96": 0.002,
+        "units": "mg/L"
+    },
+    {
+        "_id": "fc820a6a-3eb3-436b-b15e-d52ae35ad899",
+        "type": "health",
+        "name": "Chlorfenvinphos",
+        "displayName": "Chlorfenvinphos",
+        "threshold1_11": 0.002
+    },
+    {
+        "_id": "e2a94032-77e0-46ae-a3d0-5ad580060f75",
+        "type": "health",
+        "name": "ChlorineDioxide",
+        "displayName": "Chlorine Dioxide"
+    },
+    {
+        "_id": "32399c93-5d3c-4046-90bb-089bf18ca903",
+        "type": "health",
+        "name": "ChlorineDPD",
+        "displayName": "Chlorine (DPD)",
+        "threshold1_11": 5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "d828bcdf-bb92-43da-9926-c13d79742b6b",
+        "type": "health",
+        "name": "ChlorineDPDTotal",
+        "displayName": "Chlorine (Total, DPD)",
+        "threshold1_11": 5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "62e60c0f-2ef3-4af4-b742-8dd1942c2c46",
+        "type": "health",
+        "name": "ChlorineFree",
+        "displayName": "Chlorine (Free)",
+        "threshold1_11": 5,
+        "threshold1_04": 5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "18635758-aeb1-4a3f-9e25-27d8ab2e7681",
+        "type": "health",
+        "name": "ChlorineResidual",
+        "displayName": "Chlorine (Residual)"
+    },
+    {
+        "_id": "2726e246-57da-4dcd-9659-931ab0ff7895",
+        "type": "health",
+        "name": "ChlorineTotal",
+        "displayName": "Chlorine (Total)",
+        "threshold1_11": 5,
+        "threshold1_04": 5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e2e7bafc-b289-4181-a9ac-894511af3379",
+        "type": "health",
+        "name": "ChloriteIC",
+        "displayName": "Chlorite (IC)",
+        "threshold1_11": 0.8,
+        "units": "mg/l"
+    },
+    {
+        "_id": "9509fb47-b021-4077-824e-52165e4c7d8d",
+        "type": "health",
+        "name": "ChloroaceticAcid",
+        "displayName": "Chloroacetic Acid",
+        "threshold1_11": 0.15,
+        "units": "mg/l"
+    },
+    {
+        "_id": "a23c83e0-2a3e-40fa-a32f-afaf807cdac5",
+        "type": "health",
+        "name": "Chlorpyrifos",
+        "displayName": "Chlorpyrifos",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "3254eee1-8b0e-4240-b4e9-5548587d87a8",
+        "type": "health",
+        "name": "Chromium",
+        "displayName": "Chromium",
+        "threshold1_11": 0.05,
+        "threshold1_04": 0.05,
+        "threshold1_96": 0.05,
+        "units": "mg/L"
+    },
+    {
+        "_id": "b8dac512-10cd-48c4-bbe1-ed1a9b526271",
+        "type": "health",
+        "name": "ChromiumICPMS",
+        "displayName": "Chromium (ICPMS)",
+        "threshold1_11": 0.05,
+        "threshold1_04": 0.05,
+        "threshold1_96": 0.05,
+        "units": "mg/L"
+    },
+    {
+        "_id": "c552c917-1727-4818-8dc0-e5fd9cb8c809",
+        "type": "health",
+        "name": "Clopyralid",
+        "displayName": "Clopyralid",
+        "threshold1_11": 1
+    },
+    {
+        "_id": "e3758e97-d4e3-4ebd-95e3-21117f453e4a",
+        "type": "health",
+        "name": "Coliforms",
+        "displayName": "Coliforms",
+        "threshold1_11": 100,
+        "threshold1_04": 98,
+        "threshold1_96": 98,
+        "units": "%"
+    },
+    {
+        "_id": "b22632b2-cbce-4e65-bd94-03c25fef4e20",
+        "type": "health",
+        "name": "ColiformsColilert",
+        "displayName": "Coliforms (Colilert)"
+    },
+    {
+        "_id": "f3175842-2e62-4924-80c5-838aabbd4005",
+        "type": "health",
+        "name": "ColiformsMF",
+        "displayName": "Coliforms (MF)"
+    },
+    {
+        "_id": "059cf17a-20a6-4724-90df-564395d89c01",
+        "type": "health",
+        "name": "Copper",
+        "displayName": "Copper",
+        "threshold1_11": 2,
+        "threshold1_04": 2,
+        "units": "mg/L"
+    },
+    {
+        "_id": "f8a035d2-8844-45a5-b833-df815ddf418c",
+        "type": "health",
+        "name": "Cyanide",
+        "displayName": "Cyanide",
+        "threshold1_11": 0.08,
+        "units": "mg/l"
+    },
+    {
+        "_id": "32af81c0-0f72-480c-9593-b47043e04864",
+        "type": "health",
+        "name": "DDT",
+        "displayName": "DDT",
+        "threshold1_11": 0.009,
+        "units": "mg/l"
+    },
+    {
+        "_id": "1837e262-cdfb-47a3-af4b-3d33daafb6c2",
+        "type": "health",
+        "name": "Diazinon",
+        "displayName": "Diazinon",
+        "threshold1_11": 0.004
+    },
+    {
+        "_id": "89f13955-8384-4926-b920-ec7f60ba1271",
+        "type": "health",
+        "name": "DichloroaceticAcid",
+        "displayName": "Dichloroacetic Acid",
+        "threshold1_11": 0.1,
+        "units": "mg/l"
+    },
+    {
+        "_id": "51ae48b9-dd79-48e7-bb0f-f8ff0754f9fb",
+        "type": "health",
+        "name": "Dichlorvos",
+        "displayName": "Dichlorvos",
+        "threshold1_11": 0.005
+    },
+    {
+        "_id": "94104efa-b3b8-4e2d-9f26-0d15378f3716",
+        "type": "health",
+        "name": "Dieldrin",
+        "displayName": "Dieldrin",
+        "threshold1_11": 0.0003,
+        "units": "mg/l"
+    },
+    {
+        "_id": "78e5bfd5-deaa-471b-8f4c-0d253a7977ff",
+        "type": "health",
+        "name": "Dimethoate",
+        "displayName": "Dimethoate",
+        "threshold1_11": 0.007
+    },
+    {
+        "_id": "a50d00bd-cb9d-4923-ac82-89e4a383b696",
+        "type": "health",
+        "name": "Diquat",
+        "displayName": "Diquat",
+        "threshold1_11": 0.005
+    },
+    {
+        "_id": "a1f4810d-144a-4ef4-a819-e9feac03ee59",
+        "type": "health",
+        "name": "Disulfoton",
+        "displayName": "Disulfoton",
+        "threshold1_11": 0.004
+    },
+    {
+        "_id": "686ea3cb-a42f-4fa8-a876-f7a17248e88f",
+        "type": "health",
+        "name": "Diuron",
+        "displayName": "Diuron",
+        "threshold1_11": 0.03
+    },
+    {
+        "_id": "c01f03a3-495c-41b8-95bf-3a7ffbe6743c",
+        "type": "health",
+        "name": "Ecoli",
+        "displayName": "Ecoli",
+        "threshold1_11": 100,
+        "threshold1_04": 98,
+        "threshold1_96": 98,
+        "units": "%"
+    },
+    {
+        "_id": "2e0c4235-ddf1-467e-a38e-c0243c62aa09",
+        "type": "health",
+        "name": "EcoliColilert",
+        "displayName": "Ecoli (Colilert)",
+        "threshold1_11": 100,
+        "threshold1_04": 98,
+        "threshold1_96": 98,
+        "units": "%"
+    },
+    {
+        "_id": "5c4d0f08-e378-41e1-96f2-34f93fa473e0",
+        "type": "health",
+        "name": "EcoliMF",
+        "displayName": "Ecoli (MF)",
+        "threshold1_11": 100,
+        "threshold1_04": 98,
+        "threshold1_96": 98,
+        "units": "%"
+    },
+    {
+        "_id": "22dafbe4-b241-41a9-af11-712876fb3e3a",
+        "type": "health",
+        "name": "EDTA",
+        "displayName": "EDTA",
+        "threshold1_11": 0.25
+    },
+    {
+        "_id": "3c4662cf-ffd2-4e6f-bea8-635b32f6ea0d",
+        "type": "health",
+        "name": "Endosulfan",
+        "displayName": "Endosulfan",
+        "threshold1_11": 0.003
+    },
+    {
+        "_id": "a88ecfc3-3e0a-4335-aa0d-4fb8d4c52218",
+        "type": "health",
+        "name": "Ethion",
+        "displayName": "Ethion",
+        "threshold1_11": 0.004
+    },
+    {
+        "_id": "9d87dfab-a882-4ef9-aae2-5aaa52d5d977",
+        "type": "health",
+        "name": "Ethoprofos",
+        "displayName": "Ethoprofos",
+        "threshold1_11": 0.001
+    },
+    {
+        "_id": "571732c5-849f-4cb6-86fe-4592e71e2157",
+        "type": "health",
+        "name": "Fenamiphos",
+        "displayName": "Fenamiphos",
+        "threshold1_11": 0.0005
+    },
+    {
+        "_id": "54a99695-a7b0-4ac5-b78f-4224f0952739",
+        "type": "health",
+        "name": "Fenitrothion",
+        "displayName": "Fenitrothion",
+        "threshold1_11": 0.007
+    },
+    {
+        "_id": "c723ac1a-10b1-462c-959e-c1b31cc4074e",
+        "type": "health",
+        "name": "Fensulfothion",
+        "displayName": "Fensulfothion",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "e8229a1f-abfe-4ca2-a4ac-bad24c9e4e07",
+        "type": "health",
+        "name": "Fenthion",
+        "displayName": "Fenthion",
+        "threshold1_11": 0.007
+    },
+    {
+        "_id": "1d8a6996-0eb0-466a-a6d1-d9c5c24dd866",
+        "type": "health",
+        "name": "Flouride",
+        "displayName": "Flouride"
+    },
+    {
+        "_id": "e9c450b0-4f4a-4480-803b-ca54df488fe9",
+        "type": "health",
+        "name": "Fluoride",
+        "displayName": "Fluoride",
+        "threshold1_11": 1.5,
+        "threshold1_04": 1.5,
+        "threshold1_96": 1.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "6dd98d77-1c24-4e45-a268-5b649f21f8e1",
+        "type": "health",
+        "name": "FluorideALS",
+        "displayName": "Fluoride (ALS)",
+        "threshold1_11": 1.5,
+        "threshold1_04": 1.5,
+        "threshold1_96": 1.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "ff0306a0-cf67-43f7-b8cb-cd66b87426ac",
+        "type": "health",
+        "name": "FluorideCHW",
+        "displayName": "Fluoride (CHW)",
+        "threshold1_11": 1.5,
+        "threshold1_04": 1.5,
+        "threshold1_96": 1.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "deab60d8-336b-4f3b-aab1-b36035ce3a2e",
+        "type": "health",
+        "name": "FluorideQCLab",
+        "displayName": "Fluoride (QCLab)",
+        "threshold1_11": 1.5,
+        "threshold1_04": 1.5,
+        "threshold1_96": 1.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "07bc1c03-13e6-417a-a05d-f0470f4de338",
+        "type": "health",
+        "name": "Formaldehyde",
+        "displayName": "Formaldehyde",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "b5f381db-6d5b-431c-a483-4f358a51cf6b",
+        "type": "health",
+        "name": "FosaAmmo",
+        "displayName": "FosaAmmo",
+        "threshold1_11": 0.3
+    },
+    {
+        "_id": "238acd8e-84c9-4963-8a55-30a86bee7712",
+        "type": "health",
+        "name": "Glyphosate",
+        "displayName": "Glyphosate",
+        "threshold1_11": 1
+    },
+    {
+        "_id": "8f9f5cd2-7af7-4769-a223-f373e892eeea",
+        "type": "health",
+        "name": "GrossAlpha",
+        "displayName": "Gross Alpha",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "5f964742-f814-4ab3-98c1-3fe2b43bb95b",
+        "type": "health",
+        "name": "GrossBeta",
+        "displayName": "Gross Beta",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "4e423aec-92fc-4a2e-847f-6c1eb8ba7e4f",
+        "type": "health",
+        "name": "Heptachlor",
+        "displayName": "Heptachlor",
+        "threshold1_11": 0.0003,
+        "units": "mg/l"
+    },
+    {
+        "_id": "6295b3f0-5a59-4d04-9d07-1229b3f34978",
+        "type": "health",
+        "name": "HeptachlorEpoxide",
+        "displayName": "Heptachlor Epoxide"
+    },
+    {
+        "_id": "391c0c6a-4d4f-4283-b3a3-b85ac6b10b39",
+        "type": "health",
+        "name": "Hexazinone",
+        "displayName": "Hexazinone",
+        "threshold1_11": 0.3
+    },
+    {
+        "_id": "615c693b-4880-4413-9601-9f6c2a20108d",
+        "type": "health",
+        "name": "Hydrocarbons",
+        "displayName": "Hydrocarbons"
+    },
+    {
+        "_id": "8392b6d8-fef5-472b-b94e-3108cf504d83",
+        "type": "health",
+        "name": "Iodide",
+        "displayName": "Iodide",
+        "threshold1_11": 0.5,
+        "units": "mg/l"
+    },
+    {
+        "_id": "c5053622-61cf-4b3e-985c-82e39f7eb899",
+        "type": "health",
+        "name": "Iodine",
+        "displayName": "Iodine",
+        "threshold1_11": 0.5,
+        "threshold1_04": 0.1,
+        "threshold1_96": 0.1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "959cbeaa-a295-4f36-9620-3238ea30cb3c",
+        "type": "health",
+        "name": "Lead",
+        "displayName": "Lead",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.01,
+        "threshold1_96": 0.01,
+        "units": "mg/L"
+    },
+    {
+        "_id": "3ad80a8e-33f4-46db-b34d-2eac11a6d340",
+        "type": "health",
+        "name": "LeadICPMS",
+        "displayName": "Lead (ICPMS)",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.01,
+        "threshold1_96": 0.01,
+        "units": "mg/L"
+    },
+    {
+        "_id": "680b2623-bcc3-4cea-b108-101c4764f104",
+        "type": "health",
+        "name": "Lindane",
+        "displayName": "Lindane",
+        "threshold1_11": 0.01,
+        "units": "mg/l"
+    },
+    {
+        "_id": "9bbc2fbe-cd3b-40cc-a3c0-7380bc46f40a",
+        "type": "health",
+        "name": "Malathion",
+        "displayName": "Malathion",
+        "threshold1_11": 0.07
+    },
+    {
+        "_id": "8dd94447-b37d-4b1c-bb4c-1f2d3cc007be",
+        "type": "health",
+        "name": "Manganese",
+        "displayName": "Manganese",
+        "threshold1_11": 0.5,
+        "threshold1_04": 0.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "734fc2df-b29a-4297-b67e-8eede542b0a4",
+        "type": "health",
+        "name": "ManganeseICPMS",
+        "displayName": "Manganese (ICPMS)",
+        "threshold1_11": 0.5,
+        "threshold1_04": 1.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "5276070a-57b9-473a-9d11-18f2858988a9",
+        "type": "health",
+        "name": "ManganeseSoluble",
+        "displayName": "Manganese (Soluble)",
+        "threshold1_11": 0.5,
+        "threshold1_04": 2.5,
+        "units": "mg/L"
+    },
+    {
+        "_id": "a41f8afe-8777-40ea-b2b9-fe25f6a3a100",
+        "type": "health",
+        "name": "Mercury",
+        "displayName": "Mercury",
+        "threshold1_11": 0.001,
+        "threshold1_04": 0.001,
+        "threshold1_96": 0.001,
+        "units": "mg/L"
+    },
+    {
+        "_id": "2312e2d3-81d5-4744-ac42-6f5019cda4c0",
+        "type": "health",
+        "name": "Metals",
+        "displayName": "Metals"
+    },
+    {
+        "_id": "a93fa2bb-9a0c-4b1a-b02a-71b85da6d0b8",
+        "type": "health",
+        "name": "Methoxychlor",
+        "displayName": "Methoxychlor",
+        "threshold1_11": 0.3,
+        "units": "mg/l"
+    },
+    {
+        "_id": "027f92cf-8213-44b2-9b6b-dd998e70cfcc",
+        "type": "health",
+        "name": "Mevinphos",
+        "displayName": "Mevinphos",
+        "threshold1_11": 0.005
+    },
+    {
+        "_id": "a65d0c21-e1ac-45df-a90d-ae87cc1be672",
+        "type": "health",
+        "name": "Molinate",
+        "displayName": "Molinate",
+        "threshold1_11": 0.005
+    },
+    {
+        "_id": "e04b46d0-a9ea-40ea-a461-0a8b8b87e118",
+        "type": "health",
+        "name": "Molybdenum",
+        "displayName": "Molybdenum",
+        "threshold1_11": 0.05,
+        "threshold1_04": 0.05,
+        "threshold1_96": 0.05,
+        "units": "mg/L"
+    },
+    {
+        "_id": "1f176f7a-2050-408d-b7cf-ba744e4f6d63",
+        "type": "health",
+        "name": "MolybdenumICPMS",
+        "displayName": "Molybdenum (ICPMS)",
+        "threshold1_11": 0.05,
+        "threshold1_04": 0.05,
+        "threshold1_96": 0.05,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e2a135d0-3e88-44b9-b028-369514dea3cf",
+        "type": "health",
+        "name": "Monochloramine",
+        "displayName": "Monochloramine",
+        "threshold1_11": 3,
+        "units": "mg/l"
+    },
+    {
+        "_id": "c9b5460a-a094-4c63-8ed5-5a40e813a1bb",
+        "type": "health",
+        "name": "MonochloramineField",
+        "displayName": "Monochloramine (Field)",
+        "threshold1_11": 3,
+        "units": "mg/l"
+    },
+    {
+        "_id": "bba7f2e9-1399-4e84-961c-77298ba295c3",
+        "type": "health",
+        "name": "Monocrotophos",
+        "displayName": "Monocrotophos",
+        "threshold1_11": 0.002
+    },
+    {
+        "_id": "a9a212a5-0ff3-4df2-a72d-30cd82e500c1",
+        "type": "health",
+        "name": "Naegleria",
+        "displayName": "Naegleria"
+    },
+    {
+        "_id": "51afda05-b33c-4ad7-a9ab-55dfd5a0813e",
+        "type": "health",
+        "name": "NDMA",
+        "displayName": "NDMA",
+        "threshold1_11": 100,
+        "units": "mg/l"
+    },
+    {
+        "_id": "da7472af-f431-46f8-b301-c4a3ae8fc7b2",
+        "type": "health",
+        "name": "Nickel",
+        "displayName": "Nickel",
+        "threshold1_11": 0.02,
+        "threshold1_04": 0.02,
+        "threshold1_96": 0.02,
+        "units": "mg/L"
+    },
+    {
+        "_id": "03fc06fa-bba5-4bfa-a1cc-72241cc2116c",
+        "type": "health",
+        "name": "NickelICPMS",
+        "displayName": "Nickel (ICPMS)",
+        "threshold1_11": 0.02,
+        "threshold1_04": 0.02,
+        "threshold1_96": 0.02,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e5c77d5c-4e90-43bd-9924-94fb237035cc",
+        "type": "health",
+        "name": "Nitrate",
+        "displayName": "Nitrate",
+        "threshold1_11": 50,
+        "threshold2_11": 100,
+        "threshold1_04": 50,
+        "threshold1_96": 50,
+        "units": "mg/L"
+    },
+    {
+        "_id": "1c462301-7899-444c-aaa4-a67c4d6016e6",
+        "type": "health",
+        "name": "NitrateNitrite",
+        "displayName": "Nitrate&Nitrite",
+        "threshold1_11": 1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e4e05ba4-9850-4367-a422-761caad786dc",
+        "type": "health",
+        "name": "Nitrite",
+        "displayName": "Nitrite",
+        "threshold1_11": 3,
+        "threshold1_04": 3,
+        "threshold1_96": 3,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e581ac75-7b15-4ca6-8b7a-49001421cf77",
+        "type": "health",
+        "name": "NTA",
+        "displayName": "NTA",
+        "threshold1_11": 0.2
+    },
+    {
+        "_id": "a2739b21-e869-4190-b9ad-5c38bc1ba7ce",
+        "type": "health",
+        "name": "Omethoate",
+        "displayName": "Omethoate",
+        "threshold1_11": 0.001
+    },
+    {
+        "_id": "3c338a9a-4e00-4b1b-9156-0b3475f97693",
+        "type": "health",
+        "name": "Others",
+        "displayName": "Others"
+    },
+    {
+        "_id": "8c3dee40-816c-4058-88cd-6b7e90b7cc62",
+        "type": "health",
+        "name": "Paraquat",
+        "displayName": "Paraquat",
+        "threshold1_11": 0.03
+    },
+    {
+        "_id": "133de273-4e23-47ab-a226-638808e9d4d0",
+        "type": "health",
+        "name": "Parathion",
+        "displayName": "Parathion",
+        "threshold1_11": 0.02
+    },
+    {
+        "_id": "e7ac1941-9fa1-4dc8-9a36-eef1732ad137",
+        "type": "health",
+        "name": "Parathionmethyl",
+        "displayName": "Parathionmethyl",
+        "threshold1_11": 0.0007
+    },
+    {
+        "_id": "06fa44e9-5ae7-4116-9f13-2a6d01720b50",
+        "type": "health",
+        "name": "Pentachlorophenol",
+        "displayName": "Pentachlorophenol",
+        "threshold1_11": 0.01,
+        "units": "mg/l"
+    },
+    {
+        "_id": "883ad2bc-833f-4277-a666-73b15ff36e79",
+        "type": "health",
+        "name": "Pesticides",
+        "displayName": "Pesticides"
+    },
+    {
+        "_id": "2ebe230c-bdfa-4f8e-97ce-d3f0302033be",
+        "type": "health",
+        "name": "PFHxSPFOS",
+        "displayName": "PFHxSPFOS",
+        "threshold1_11": 0.07,
+        "units": "µg/L"
+    },
+    {
+        "_id": "d6743cbc-756b-48a5-823a-6c13d7b4f614",
+        "type": "health",
+        "name": "PFOA",
+        "displayName": "PFOA",
+        "threshold1_11": 0.56,
+        "units": "µg/L"
+    },
+    {
+        "_id": "62dbf853-47c1-4057-8b52-00a1815a7796",
+        "type": "health",
+        "name": "Picloram",
+        "displayName": "Picloram",
+        "threshold1_11": 0.3
+    },
+    {
+        "_id": "6cbf0c4e-5bf0-405b-a394-dbf8b5858510",
+        "type": "health",
+        "name": "Pirimiphosethyl",
+        "displayName": "Pirimiphosethyl",
+        "threshold1_11": 0.0005
+    },
+    {
+        "_id": "213f2b5f-1722-4676-a4bf-5f18b5a5c500",
+        "type": "health",
+        "name": "Pirimiphosmethyl",
+        "displayName": "Pirimiphosmethyl",
+        "threshold1_11": 0.09
+    },
+    {
+        "_id": "3bc17af7-7ea6-4808-8cd5-c8943f35049e",
+        "type": "health",
+        "name": "Profenofos",
+        "displayName": "Profenofos",
+        "threshold1_11": 0.0003
+    },
+    {
+        "_id": "9d7a1dc5-ded6-4738-b736-c91ff80d7d74",
+        "type": "health",
+        "name": "Propiconazole",
+        "displayName": "Propiconazole",
+        "threshold1_11": 0.1
+    },
+    {
+        "_id": "5c98a41b-c07c-487f-af1f-9da71fb5227e",
+        "type": "health",
+        "name": "Radiological",
+        "displayName": "Radiological",
+        "threshold1_11": 1,
+        "threshold1_04": 1,
+        "threshold1_96": 0.5,
+        "units": "mSv/yr"
+    },
+    {
+        "_id": "0fb93d32-2602-48f5-b4fc-dc79d17e7df4",
+        "type": "health",
+        "name": "Ronnel",
+        "displayName": "Ronnel",
+        "threshold1_11": 0.0005
+    },
+    {
+        "_id": "d1b7937e-dbad-41c1-b02a-9f8cfc3ca48e",
+        "type": "health",
+        "name": "Selenium",
+        "displayName": "Selenium",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.01,
+        "threshold1_96": 0.01,
+        "units": "mg/L"
+    },
+    {
+        "_id": "626fcfbe-ba1d-43e2-8506-a3f9936677fb",
+        "type": "health",
+        "name": "SeleniumICPMS",
+        "displayName": "Selenium (ICPMS)",
+        "threshold1_11": 0.01,
+        "threshold1_04": 0.01,
+        "threshold1_96": 0.01,
+        "units": "mg/L"
+    },
+    {
+        "_id": "4572d32f-a166-45dd-afb2-1339bbaf6bf6",
+        "type": "health",
+        "name": "Silver",
+        "displayName": "Silver",
+        "threshold1_11": 0.1,
+        "threshold1_04": 0.1,
+        "threshold1_96": 0.1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "a4572452-b581-46d2-9797-8e670fb55fa6",
+        "type": "health",
+        "name": "SilverICPMS",
+        "displayName": "Silver (ICPMS)",
+        "threshold1_11": 0.1,
+        "threshold1_04": 0.1,
+        "threshold1_96": 0.1,
+        "units": "mg/L"
+    },
+    {
+        "_id": "e7bc97e2-f910-43a5-88eb-3672b5a9fd81",
+        "type": "health",
+        "name": "Simazine",
+        "displayName": "Simazine",
+        "threshold1_11": 0.02
+    },
+    {
+        "_id": "feff47cb-d053-4ded-ac28-06d7a4399b18",
+        "type": "health",
+        "name": "Sulfate",
+        "displayName": "Sulfate",
+        "threshold1_04": 500,
+        "units": "mg/l"
+    },
+    {
+        "_id": "33eeae4d-a43c-4c28-a325-deab548770c9",
+        "type": "health",
+        "name": "Sulprofos",
+        "displayName": "Sulprofos",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "ee0e634c-bfaa-40d7-9a5d-05baa55139f8",
+        "type": "health",
+        "name": "Temephos",
+        "displayName": "Temephos",
+        "threshold1_11": 0.4
+    },
+    {
+        "_id": "7b422f8b-2f94-4999-9e6b-424b485710b6",
+        "type": "health",
+        "name": "Terbufos",
+        "displayName": "Terbufos",
+        "threshold1_11": 0.0009
+    },
+    {
+        "_id": "42e19c04-9e60-43c1-9080-0b3d0d11a65e",
+        "type": "health",
+        "name": "Tetrachloroethene",
+        "displayName": "Tetrachloroethene",
+        "threshold1_11": 0.05,
+        "units": "mg/L"
+    },
+    {
+        "_id": "4367a7b3-e9d6-437e-ac1f-3e26c2632774",
+        "type": "health",
+        "name": "Tetrachlorvinphos",
+        "displayName": "Tetrachlorvinphos",
+        "threshold1_11": 0.1
+    },
+    {
+        "_id": "4d20eed6-7916-4472-85f0-0d0c9d7e6e97",
+        "type": "health",
+        "name": "ThermophilicNaegleria",
+        "displayName": "Thermophilic Naegleria",
+        "threshold1_11": "NA"
+    },
+    {
+        "_id": "3694fe2b-3d58-42c8-b631-c39028a952f1",
+        "type": "health",
+        "name": "THM",
+        "displayName": "Trihalomethanes",
+        "threshold1_11": 0.25,
+        "threshold1_04": 0.25,
+        "threshold1_96": 0.25,
+        "units": "mg/L"
+    },
+    {
+        "_id": "882055f0-f594-4a37-8b75-6dd9857bfa12",
+        "type": "health",
+        "name": "Toluene",
+        "displayName": "Toluene",
+        "threshold1_11": 0.8
+    },
+    {
+        "_id": "bb9ebbe8-f5ed-4067-9a4d-1c0136d42965",
+        "type": "health",
+        "name": "Trichlorfon",
+        "displayName": "Trichlorfon",
+        "threshold1_11": 0.007
+    },
+    {
+        "_id": "3d10d91e-cf6d-44c4-b56b-25df61e8944d",
+        "type": "health",
+        "name": "TrichloroaceticAcid",
+        "displayName": "TrichloroaceticAcid",
+        "threshold1_11": 0.1,
+        "units": "mg/l"
+    },
+    {
+        "_id": "1f27fe74-19cf-499a-a982-06b040f0b103",
+        "type": "health",
+        "name": "Triclopyr",
+        "displayName": "Triclopyr",
+        "threshold1_11": 0.01
+    },
+    {
+        "_id": "3bab4549-8e0a-4116-a1c0-6286bb190a43",
+        "type": "health",
+        "name": "Uranium",
+        "displayName": "Uranium",
+        "threshold1_11": 0.017,
+        "threshold1_04": 0.02,
+        "threshold1_96": 0.02,
+        "units": "mg/L"
+    },
+    {
+        "_id": "f89f8ad9-a7e3-47e7-bc03-e10fa101391d",
+        "type": "others",
+        "name": "Alkalinity",
+        "displayName": "Alkalinity"
+    },
+    {
+        "_id": "abbec028-638b-41f7-a445-00c53470c980",
+        "type": "others",
+        "name": "AlkalinityCACO3",
+        "displayName": "Alkalinity (as CaCO₃)"
+    },
+    {
+        "_id": "c24d34be-07d5-4de8-b74d-d1d562879745",
+        "type": "others",
+        "name": "Azpethyl",
+        "displayName": "Azpethyl"
+    },
+    {
+        "_id": "ae115aa1-81a8-4f48-8739-26ac688462e3",
+        "type": "others",
+        "name": "Azpmethyl",
+        "displayName": "Azpmethyl"
+    },
+    {
+        "_id": "3d710478-0c83-4efd-8cb0-e65db85638e8",
+        "type": "others",
+        "name": "BaP",
+        "displayName": "Benzo[a]pyrene"
+    },
+    {
+        "_id": "8c640db1-2ca6-4409-80f4-090843928c9c",
+        "type": "others",
+        "name": "Bicarbonate",
+        "displayName": "Bicarbonate"
+    },
+    {
+        "_id": "e098f74a-9802-44a4-89d0-336dbc0d599d",
+        "type": "others",
+        "name": "Bromide",
+        "displayName": "Bromide"
+    },
+    {
+        "_id": "08528379-b69c-4f91-8e84-058afdc89456",
+        "type": "others",
+        "name": "BromideIC",
+        "displayName": "Bromide (IC)"
+    },
+    {
+        "_id": "619cddb3-fd4a-4c3a-a766-9401d6b8137b",
+        "type": "others",
+        "name": "Bromine",
+        "displayName": "Bromine"
+    },
+    {
+        "_id": "1bb1e99e-0fda-4eca-a940-3f195f49cae0",
+        "type": "others",
+        "name": "Bromo",
+        "displayName": "Bromo Acetic Acid"
+    },
+    {
+        "_id": "3f2917fe-ee5e-41cf-a167-f8a52f80fe7d",
+        "type": "others",
+        "name": "BromoChloro",
+        "displayName": "Bromo-Chloro Acetic Acid"
+    },
+    {
+        "_id": "5f0dc9a9-7d47-4762-b35a-6fbcb4ff7643",
+        "type": "others",
+        "name": "Bromochloromethane",
+        "displayName": "Bromochloromethane"
+    },
+    {
+        "_id": "d4e70175-c323-48fd-8172-390b27ab0d29",
+        "type": "others",
+        "name": "BromoDichloro",
+        "displayName": "Bromo-Dichloro Acetic Acid"
+    },
+    {
+        "_id": "a2996f5e-3d8e-45b2-8b69-228d440669b6",
+        "type": "others",
+        "name": "Bromodichloromethane",
+        "displayName": "Bromodichloromethane"
+    },
+    {
+        "_id": "709df0a2-8a5b-4c6b-8256-3091ba7be122",
+        "type": "others",
+        "name": "Bromoform",
+        "displayName": "Bromoform"
+    },
+    {
+        "_id": "fa8c3bbb-a7b5-481f-a93c-425c62787392",
+        "type": "others",
+        "name": "Calcium",
+        "displayName": "Calcium"
+    },
+    {
+        "_id": "a6dd4c96-4b03-40d7-865d-58824b8eb557",
+        "type": "others",
+        "name": "Carbonate",
+        "displayName": "Carbonate"
+    },
+    {
+        "_id": "fc07f528-245a-4ba5-9dc9-c1019559d585",
+        "type": "others",
+        "name": "Chloramine",
+        "displayName": "Chloramine"
+    },
+    {
+        "_id": "36fdc461-082d-45ff-bf71-1cd7331cb3e0",
+        "type": "others",
+        "name": "Chloroform",
+        "displayName": "Chloroform"
+    },
+    {
+        "_id": "8f0339fa-027f-4af5-a30d-ad558b5703ca",
+        "type": "others",
+        "name": "ChlorpyrifosMethyl",
+        "displayName": "Chlorpyrifos Methyl"
+    },
+    {
+        "_id": "11fbae4a-aa88-41da-946d-e227dd3864f3",
+        "type": "others",
+        "name": "Conductivity",
+        "displayName": "Conductivity"
+    },
+    {
+        "_id": "413974db-9560-4489-abbe-8bb8b6e543b6",
+        "type": "others",
+        "name": "Coumaphos",
+        "displayName": "Coumaphos"
+    },
+    {
+        "_id": "f4531973-62ff-4a94-95f1-aed53bbb406e",
+        "type": "others",
+        "name": "DemetonO",
+        "displayName": "Demeton (O)"
+    },
+    {
+        "_id": "195a4e32-ebf5-4c86-bb48-1496c5b0b5ad",
+        "type": "others",
+        "name": "DemetonOS",
+        "displayName": "Demeton (OS)"
+    },
+    {
+        "_id": "2d068cd6-a15a-4933-a508-e3b7d6bf12b9",
+        "type": "others",
+        "name": "DemetonS",
+        "displayName": "Demeton (S)"
+    },
+    {
+        "_id": "3c2af9c5-fa99-4a8d-8cf7-303374fba8bf",
+        "type": "others",
+        "name": "DemetonSmethyl",
+        "displayName": "Demeton S-methyl"
+    },
+    {
+        "_id": "8ec66d76-01cf-44b0-84d0-a502ff7c8dd9",
+        "type": "others",
+        "name": "DiBromo",
+        "displayName": "Di-Bromo Acetic Acid"
+    },
+    {
+        "_id": "b9904b63-beac-4127-a3c0-550403b95e00",
+        "type": "others",
+        "name": "Dibromochloromethane",
+        "displayName": "Dibromochloromethane"
+    },
+    {
+        "_id": "63501b5f-6370-41c9-bbd9-7ecc918b5137",
+        "type": "others",
+        "name": "Dichloramine",
+        "displayName": "Dichloramine"
+    },
+    {
+        "_id": "5728063a-55ca-42d2-88fc-62bbecace742",
+        "type": "others",
+        "name": "Dichlorobromomethane",
+        "displayName": "Dichlorobromomethane"
+    },
+    {
+        "_id": "9f67add7-8c63-4419-99ba-22f196e6b600",
+        "type": "others",
+        "name": "DOC",
+        "displayName": "Dissolved Organic Carbon"
+    },
+    {
+        "_id": "0bf046da-9fef-42d2-8143-1e5fc08e04d0",
+        "type": "others",
+        "name": "Electrical",
+        "displayName": "Electrical"
+    },
+    {
+        "_id": "9543ef5a-b205-4d72-9864-d12c623d374c",
+        "type": "others",
+        "name": "Endosulphan",
+        "displayName": "Endosulphan"
+    },
+    {
+        "_id": "50c6c0a2-0257-48f8-821c-d3abc3d30621",
+        "type": "others",
+        "name": "EPN",
+        "displayName": "EPN"
+    },
+    {
+        "_id": "12e63cff-3806-42df-b422-4671a76803f0",
+        "type": "others",
+        "name": "gammaBHC",
+        "displayName": "gamma-BHC"
+    },
+    {
+        "_id": "b2d47c6f-9729-4273-b1a8-9fe57f6ab857",
+        "type": "others",
+        "name": "HCB",
+        "displayName": "Hexachlorobenzene"
+    },
+    {
+        "_id": "9f39c6de-2da5-440f-948e-d71848c3359a",
+        "type": "others",
+        "name": "Hexachlorobenzene",
+        "displayName": "Hexachlorobenzene"
+    },
+    {
+        "_id": "9b8d409c-f19d-4a0a-9b52-f38d92fd5856",
+        "type": "others",
+        "name": "Hydroxide",
+        "displayName": "Hydroxide"
+    },
+    {
+        "_id": "3eb2ef99-c154-4dd6-ba74-33053af9eea6",
+        "type": "others",
+        "name": "Iodine",
+        "displayName": "Iodine"
+    },
+    {
+        "_id": "80a1f49a-e11c-4f8c-81eb-6a48d5d41c48",
+        "type": "others",
+        "name": "Magnesium",
+        "displayName": "Magnesium"
+    },
+    {
+        "_id": "1057513a-a68b-4ebb-b26d-aa4dd6a2a17c",
+        "type": "others",
+        "name": "NitrateAsN",
+        "displayName": "Nitrate Nitrogen"
+    },
+    {
+        "_id": "53b9b901-5bf3-40f5-aa3f-a44821b6b167",
+        "type": "others",
+        "name": "NitrateNitriteAsN",
+        "displayName": "Nitrate&Nitrite Nitrogen"
+    },
+    {
+        "_id": "3899b803-acf1-41d3-8309-08b836bd219f",
+        "type": "others",
+        "name": "NitriteAsN",
+        "displayName": "Nitrite Nitrogen"
+    },
+    {
+        "_id": "5ec16125-6c40-4fa4-90f0-86c4eebae68d",
+        "type": "others",
+        "name": "Phorate",
+        "displayName": "Phorate"
+    },
+    {
+        "_id": "dc5000a0-73c9-4878-b343-16944e7bb7e3",
+        "type": "others",
+        "name": "Phosphorus",
+        "displayName": "Phosphorus"
+    },
+    {
+        "_id": "d8e52600-529b-4f70-84f3-7ef263c449dd",
+        "type": "others",
+        "name": "Potassium",
+        "displayName": "Potassium"
+    },
+    {
+        "_id": "e0ac7d39-8066-40f3-813e-c1779f6dc60d",
+        "type": "others",
+        "name": "Prothiofos",
+        "displayName": "Prothiofos"
+    },
+    {
+        "_id": "71f4361e-4af3-46c9-8fb5-63d259fd313b",
+        "type": "others",
+        "name": "Salinity",
+        "displayName": "Salinity"
+    },
+    {
+        "_id": "55237432-a371-46d2-9759-f160298b0fa9",
+        "type": "others",
+        "name": "SodiumChloride",
+        "displayName": "Sodium Chloride"
+    },
+    {
+        "_id": "90f888c1-e947-44ef-88ab-417c81e9d688",
+        "type": "others",
+        "name": "SulfoteH",
+        "displayName": "SulfoteH"
+    },
+    {
+        "_id": "dc1347ae-6d60-4c9e-a80f-a31ab326e122",
+        "type": "others",
+        "name": "Temperature",
+        "displayName": "Temperature"
+    },
+    {
+        "_id": "38aaf54f-c18b-4b43-b871-6cebce517263",
+        "type": "others",
+        "name": "Tin",
+        "displayName": "Tin"
+    },
+    {
+        "_id": "4379cafe-5287-4252-8e65-cb5aefb92239",
+        "type": "others",
+        "name": "TitaniumICPMS",
+        "displayName": "Titanium (ICPMS)"
+    },
+    {
+        "_id": "ae3ab969-92d0-4cbb-9d0e-aa3064362036",
+        "type": "others",
+        "name": "TOC",
+        "displayName": "Total Organic Carbon"
+    },
+    {
+        "_id": "b66109df-a68e-4bde-97af-9227671aa2d4",
+        "type": "others",
+        "name": "TON",
+        "displayName": "Total Organic Nitrogen"
+    },
+    {
+        "_id": "2048ceb0-463d-42b7-9403-de824e0de792",
+        "type": "others",
+        "name": "TONAuto",
+        "displayName": "Total Organic Nitrogen (Auto-analyzer)"
+    },
+    {
+        "_id": "2010ad16-d1b6-41cf-9eea-9ca35dcd3915",
+        "type": "others",
+        "name": "TotalPlateCount",
+        "displayName": "Total Plate Count"
+    },
+    {
+        "_id": "4f8a795d-d642-43f1-a65b-63f2b2676026",
+        "type": "others",
+        "name": "Triazophos",
+        "displayName": "Triazophos"
+    },
+    {
+        "_id": "5ba3e976-69c8-4506-942b-e88e96889665",
+        "type": "others",
+        "name": "Trichloronate",
+        "displayName": "Trichloronate"
+    }
+]

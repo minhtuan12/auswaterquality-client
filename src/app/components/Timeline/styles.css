@@ -1,0 +1,35 @@
+#wjh-timeline {
+    width: 100%;
+    height: 600px;
+}
+
+#wjh-timeline .tl-headline-date {
+    font-weight: 400 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+#wjh-timeline .tl-text-headline-container .tl-headline {
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.3;
+}
+
+#wjh-timeline .tl-timemarker-text .tl-headline {
+    font-size: 14px;
+    line-height: 12px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    color: #333;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#wjh-timeline>a {
+    color: var(--bs-primary) !important;
+}

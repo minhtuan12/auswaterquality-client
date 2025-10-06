@@ -1,0 +1,152 @@
+.wjh-news-card .card-body {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wjh-news-card__title {
+  color: var(--bs-primary) !important;
+  text-align: justify;
+}
+
+.wjh-news-card__category {
+  color: var(--bs-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.wjh-news-card__action {
+  display: flex;
+  justify-content: end;
+}
+
+.wjh-news-card__content {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wjh-news-card__content .card-text {
+  min-height: 48px;
+}
+
+/* Events Cart */
+.wjh-events-card {
+  position: relative !important;
+  height: 375px !important;
+  border: 0 !important;
+}
+
+.wjh-events-card__thumbnail {
+  height: 100%;
+  object-fit: cover;
+}
+
+.wjh-events-card__overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.wjh-events-card .card-body {
+  position: absolute;
+}
+
+.wjh-events-card__title {
+  color: white !important;
+  margin-top: 10px !important;
+  font-size: 26px !important;
+}
+
+.wjh-events-card__content {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.wjh-events-card__location {
+  color: white;
+  font-size: 16px;
+}
+
+.wjh-events-card__created-at {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-width: 92px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.wjh-events-card__date {
+  font-size: 26px;
+  color: #E09900;
+  font-weight: 600;
+}
+
+.wjh-events-card__month,
+.wjh-events-card__year {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+/* Highlight */
+.wjh-highlight-card {
+  /* display: flex;
+  gap: 20px; */
+}
+
+.wjh-highlight-card__thumbnail-ltr {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.wjh-highlight-card__thumbnail-rtl {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.wjh-highlight-card__thumbnail {
+  width: 400px;
+}
+
+.wjh-highlight-card__thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.wjh-highlight-card__content {
+  flex: 1;
+}
+
+.wjh-highlight-card__category {
+  color: var(--bs-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.wjh-highlight-card__title {
+  color: var(--bs-primary) !important;
+}
+
+.wjh-highlight-card__desc {
+  color: var(--bs-secondary) !important;
+}
+
+.wjh-highlight-card__actions-ltr {
+  text-align: right;
+}
+
+.wjh-highlight-card__actions-rtl {
+  text-align: left;
+}

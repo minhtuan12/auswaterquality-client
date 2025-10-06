@@ -1,0 +1,45 @@
+.wjh-google-search {
+    display: flex;
+    align-items: center;
+}
+
+.wjh-google-search__wrapper {
+    padding: 5px 9px 4px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+}
+
+.wjh-google-search input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+.wjh-google-search button {
+    background-color: #116AAB;
+    border: none;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    margin-left: 0;
+    height: 35px;
+    width: 42px;
+}
+
+.wjh-google-search button::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    content: "\f52a";
+    vertical-align: -.1em;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.wjh-configuration-text ul {
+    padding-left: 2rem;
+}

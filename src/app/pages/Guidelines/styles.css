@@ -1,0 +1,150 @@
+.wjh-guidelines {
+    padding-bottom: 32px;
+}
+
+.wjh-guidelines__carousel .carousel-control-next,
+.wjh-guidelines__carousel .carousel-control-prev {
+    width: 5%;
+}
+
+.wjh-guidelines__carousel-item-wrapper {
+    width: 100%;
+    height: 400px;
+    background: #555;
+    position: relative;
+}
+
+.wjh-guidelines__carousel-item-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    color: white;
+}
+
+.wjh-guidelines__carousel-item-inner span {
+    font-size: 14px;
+}
+
+.wjh-guidelines__carousel-item-inner h6 {
+    font-size: 20px;
+}
+
+.wjh-guidelines__carousel-item-inner a {
+    color: var(--bs-primary)
+}
+
+/* BEGIN: About ADWR */
+.wjh-guidelines__about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wjh-guidelines__about-left {}
+
+.wjh-guidelines__about-left>h5 {
+    position: relative;
+    padding-top: 0.6rem;
+    color: var(--bs-primary);
+    font-weight: 500
+}
+
+.wjh-guidelines__about-left>p {
+    line-height: 24px;
+    text-align: justify;
+}
+
+.wjh-guidelines__about-left>h5::before {
+    background-color: var(--bs-secondary);
+    content: "";
+    height: 1px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.wjh-guidelines__about-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wjh-guidelines__about-image {
+    position: relative;
+    width: 430px;
+    height: 400px;
+}
+
+.wjh-guidelines__about-image-rotate {
+    position: absolute;
+    transform: rotate3d(0, 1, 0, 35deg);
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.wjh-guidelines__about-image-rotate:hover {
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.bk-cover {
+    display: block;
+    position: absolute;
+    background: url("https://www.nhmrc.gov.au/sites/default/files/images/Cover%20images/ADWG-3-9-Cover.png") no-repeat -3px 0px;
+    background-size: 300px 400px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: inset 4px 0 10px rgba(0, 0, 0, .1);
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.bk-front {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 0;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+    transition: transform .5s;
+    transform: translate3d(0, 0, 20px);
+    z-index: 10;
+}
+
+.bk-left {
+    display: block;
+    position: absolute;
+    height: 400px;
+    width: 40px;
+    top: 0;
+    right: 280px;
+    background-color: #006385;
+    background-image: url("https://www.nhmrc.gov.au/themes/custom/nhmrc/images/magside.jpg");
+    background-repeat: no-repeat;
+    background-position: 3px 0;
+    border-left: 2px #006385 solid;
+    border-right: 2px #006385 solid;
+    transform: rotate3d(0, 1, 0, -90deg);
+}
+
+
+@media screen and (min-width: 740px) {
+    .wjh-guidelines__about {
+        flex-direction: row;
+    }
+
+    .wjh-guidelines__about-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* END: About ADWR */

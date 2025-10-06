@@ -1,0 +1,26 @@
+.at-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 8px 10px 8px 6px;
+    height: auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-bottom: 6px;
+    width: auto;
+}
+
+.at-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.at-circle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
