@@ -1,25 +1,25 @@
-import React, {useCallback, useEffect, useMemo, useRef, useState,} from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState, } from "react";
 import dayjs from "dayjs";
-import {Col, Container, Form, Row} from "react-bootstrap";
-import {BaseHelmet, ConfigurationText, FormDropdown, HomeTitle} from "../../components";
-import {DB_STATE, PARAMETER_TYPE_OPTIONS, STATE_OPTIONS,} from "../../utils/mocks/options";
-import {Button, DatePicker, Slider, Tabs} from "antd";
+import { Col, Container, Form, Row } from "react-bootstrap";
+import { BaseHelmet, ConfigurationText, FormDropdown, HomeTitle } from "../../components";
+import { DB_STATE, PARAMETER_TYPE_OPTIONS, STATE_OPTIONS, } from "../../utils/mocks/options";
+import { Button, DatePicker, Slider, Tabs } from "antd";
 import ParametersTab from "./ParametersTab";
-import {ParameterDataType} from "../../types";
-import {useFetchCommunities, useInteractiveChart} from "../../hooks";
-import {RangePickerProps} from "antd/es/date-picker";
+import { ParameterDataType } from "../../types";
+import { useFetchCommunities, useInteractiveChart } from "../../hooks";
+import { RangePickerProps } from "antd/es/date-picker";
 import DotLightQualityChart from "./DotLightQualityChart";
 import ParameterTrendChart from "./ParameterTrendChart";
 import QualityTimeRangeBarChart from "./QualityTimeRangeBarChart";
 import ExceedancesGroup from "./ExceedancesGroup";
 import LineChart from "./LineChart";
-import {ParameterType} from "../../enums/Parameter";
+import { ParameterType } from "../../enums/Parameter";
 import ParametersJson from "../../../../public/jsons/parameters.json";
 import ScatterCommunity from "./ScatterCommunity";
-import {ADWRService} from "../../services";
-import {useLocation} from "react-router-dom";
-import {InfoCircleOutlined} from "@ant-design/icons";
-import {useConfiguration, useContextModal} from "../../contexts";
+import { ADWRService } from "../../services";
+import { useLocation } from "react-router-dom";
+import { InfoCircleOutlined } from "@ant-design/icons";
+import { useConfiguration, useContextModal } from "../../contexts";
 import styles from "./styles.module.css";
 
 const { RangePicker } = DatePicker;
@@ -44,7 +44,7 @@ const InteractiveDashboardPage = () => {
     onChangeState,
   } = useFetchCommunities({ hasAll: true });
   const location = useLocation();
-  const [parameters] = useState<ParameterDataType[]>(ParametersJson);
+  const [parameters] = useState<any>(ParametersJson);
   const [filter, setFilter] = useState<InteractiveDashboardFilter>({
     state: null,
     locationType: null,
@@ -76,8 +76,8 @@ const InteractiveDashboardPage = () => {
   const [tab, setTab] = useState("parameters");
   const [isPlay, setIsPlay] = useState(true);
   const { methodology } = useContextModal();
-  const {configurations} = useConfiguration();
-  const {chartNote} = configurations.data;
+  const { configurations } = useConfiguration();
+  const { chartNote } = configurations.data;
 
   const isCommunity = filter.community && filter.community !== "All";
 
@@ -177,7 +177,7 @@ const InteractiveDashboardPage = () => {
   );
 
   const getParameter: ParameterDataType | undefined = useMemo(() => {
-    return parameters.find((item) => item.name === filter.parameter);
+    return parameters.find((item: any) => item.name === filter.parameter);
   }, [filter.parameter, parameters]);
 
   const getMasks = useMemo(() => {
@@ -237,8 +237,8 @@ const InteractiveDashboardPage = () => {
         setCurrentYear(data.data.maxYear);
         setYearSlider(data.data);
       })
-      .catch(() => {})
-      .finally(() => {});
+      .catch(() => { })
+      .finally(() => { });
   }, [filter.community, filter.locationType, filter.state]);
 
   useEffect(() => {
@@ -451,7 +451,7 @@ const InteractiveDashboardPage = () => {
               <div>
                 {yearSlider.minYear !== yearSlider.maxYear && (
                   <div>
-                    <ConfigurationText data={chartNote}/>
+                    <ConfigurationText data={chartNote} />
                     <Col
                       md={12}
                       style={{

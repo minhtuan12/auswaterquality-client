@@ -3,7 +3,7 @@ import { Container, Table } from "react-bootstrap";
 import { ADWR_Img } from "../../assets/images";
 import { useConfiguration } from "../../contexts";
 import "./styles.css";
-import {useMemo} from "react";
+import { useMemo } from "react";
 
 const metadata: any = [
   {
@@ -42,7 +42,7 @@ const AboutADWRPage = () => {
     const data: Record<string, string> = configurations?.data?.aboutADWRMetadata?.value;
     return metadata.map((item: any) => ({
       ...item,
-      content: <ConfigurationText data={{value: data[item.title]}}/>
+      content: <ConfigurationText data={{ value: data[item.title] }} />
     }))
   }, [configurations?.data?.aboutADWRMetadata]);
 
@@ -76,7 +76,7 @@ const AboutADWRPage = () => {
             </tr>
           </thead>
           <tbody>
-            {ADWR_TABLE.map((item) => (
+            {ADWR_TABLE.map((item: any) => (
               <tr key={item.title}>
                 <td>{item.title}</td>
                 <td>{item.content}</td>
