@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useConfiguration } from "../../contexts";
 import "./styles.css";
 
