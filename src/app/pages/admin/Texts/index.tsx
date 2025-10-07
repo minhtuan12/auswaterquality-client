@@ -37,6 +37,12 @@ const TABS: TabConfigs[] = [
     key: "waterQualityClassificationChart",
     configurations: {},
   },
+  {
+    order: 5,
+    name: "About ADWG",
+    key: "aboutADWG",
+    configurations: {},
+  },
 ];
 
 export type TabConfigs = {

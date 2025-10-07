@@ -11,14 +11,14 @@ export const WATER_COLOR_ANNOTATION = [
 export const TRIANGLE_MARKERS = {
   empty: `
   <div class="tri-card">
-    <svg class="triangle" viewBox="0 0 120 104" width="20" height="18"
+    <svg class="triangle" viewBox="0 0 120 104" width="14" height="12"
          xmlns="http://www.w3.org/2000/svg" role="img"
          aria-label="Tam giác rỗng">
       <polygon
         points="60,4 4,100 116,100"
         fill="#999"
-        stroke="#999"
-        stroke-width="2"
+        stroke="#000"
+        stroke-width="3"
         stroke-linejoin="round"
         stroke-linecap="round"
       />
@@ -28,7 +28,7 @@ export const TRIANGLE_MARKERS = {
 
   striped: `
   <div class="tri-card">
-  <svg class="triangle" viewBox="0 0 120 104" width="20" height="18"
+  <svg class="triangle" viewBox="0 0 120 104" width="14" height="12"
        xmlns="http://www.w3.org/2000/svg" role="img"
        aria-label="Tam giác gạch xọc">
     <defs>
@@ -42,8 +42,8 @@ export const TRIANGLE_MARKERS = {
 
     <polygon points="60,4 4,100 116,100"
              fill="#999"
-             stroke="#666"
-             stroke-width="1.2"
+             stroke="none"
+             stroke-width="0"
              stroke-linejoin="round"/>
     <rect x="0" y="0" width="120" height="104"
           fill="url(#stripes)" clip-path="url(#triClip2)"/>
@@ -53,7 +53,7 @@ export const TRIANGLE_MARKERS = {
 
   dots: `
   <div class="tri-card">
-    <svg class="triangle" viewBox="0 0 120 104" width="20" height="18"
+    <svg class="triangle" viewBox="0 0 120 104" width="14" height="12"
          xmlns="http://www.w3.org/2000/svg" role="img"
          aria-label="Tam giác chấm">
       <defs>

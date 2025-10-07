@@ -9,7 +9,7 @@ const GuidelinesContent = () => {
     return;
   }
 
-  const { name, fields } = configurations?.data?.aboutADWG ?? {};
+  const { name, value } = configurations?.data?.aboutADWG ?? {};
 
   return (
     <div className="wjh-guidelines__about">
@@ -17,12 +17,9 @@ const GuidelinesContent = () => {
         <h5>{name}</h5>
         <p
           dangerouslySetInnerHTML={{
-            __html: fields?.aboutADWGContent?.value,
+            __html: value,
           }}
         ></p>
-        <Link to={fields?.aboutADWGDownloadLink?.value} target="_blank">
-          {fields?.aboutADWGDownloadText?.value}
-        </Link>
       </div>
       <div className="wjh-guidelines__about-right">
         <div className="wjh-guidelines__about-image">

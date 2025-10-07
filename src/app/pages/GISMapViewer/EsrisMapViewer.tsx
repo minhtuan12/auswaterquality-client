@@ -147,11 +147,12 @@ const EsrisMapViewer = (
 
   const currentState = filter.state ?? "All";
   const { center, zoom } = stateView[currentState];
+  console.log(gisMapData);
 
   const markersLayer = useMemo(
     () => (
       <LayerGroup>
-        {gisMapData.map((p) => {
+        {gisMapData.filter((item: any) => item.community.state.code !== 'QLD').map((p) => {
           const failedParameters = {
             ...p.healthParameters,
             ...p.aestheticParameters,
@@ -305,13 +306,15 @@ const EsrisMapViewer = (
         <ResetZoomControl />
         <Control position="bottomleft">
           <MapAnnotation values={WATER_COLOR_ANNOTATION} />
-          <MapAnnotation values={TRIANGLE_ANNOTATION} />
           <BaseMapDropdown
             value={filter.baseMap}
             onChange={(value) => {
               handleChangeFilter(value, "baseMap");
             }}
           />
+        </Control>
+        <Control position="bottomright">
+          <MapAnnotation values={TRIANGLE_ANNOTATION} horizontal />
         </Control>
         <Control position="topright">
           <Space>

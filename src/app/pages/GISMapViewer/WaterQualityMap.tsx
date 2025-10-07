@@ -118,7 +118,7 @@ const WaterQualityMap: React.FC<Props> = ({
         setGisMapData(data.data.adwg);
         setProgressData(data.data.progress);
       })
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => {
         setGisMapLoading(false);
       });
@@ -136,7 +136,7 @@ const WaterQualityMap: React.FC<Props> = ({
         .then(({ data }) => {
           setGisTreeData(data.data);
         })
-        .catch(() => {})
+        .catch(() => { })
         .finally(() => {
           setGisTreeMapLoading(false);
         });
@@ -162,7 +162,7 @@ const WaterQualityMap: React.FC<Props> = ({
 
   console.log(gisTreeData)
 
-  return gisMapData.length === 0 || gisMapLoading ? (
+  return (gisMapData.length === 0 && progressData.length === 0) || gisMapLoading ? (
     <div className="wjh-water-map__no-data">
       {gisMapLoading ? (
         <Spin />
@@ -232,8 +232,8 @@ const WaterQualityMap: React.FC<Props> = ({
                   </div>
                 )}
                 {gisTreeData.progress ? (gisTreeData.progress === 'Data in process' ? <div>
-                    <b>Water data:</b> {gisTreeData.dataPeriod || 'N/A'}
-                  </div> : '') :
+                  <b>Water data:</b> {gisTreeData.dataPeriod || 'N/A'}
+                </div> : '') :
                   <div>
                     <b>Water data:</b> {yearSlider.minYear} - {yearSlider.maxYear}
                   </div>
@@ -244,8 +244,8 @@ const WaterQualityMap: React.FC<Props> = ({
                     {
                       removeExistingData(gisTreeData.dataSources, "/").length > 0 ?
                         removeExistingData(gisTreeData.dataSources, "/").join(
-                        ", "
-                      ) : 'N/A'
+                          ", "
+                        ) : 'N/A'
                     }
                   </div>
                 )}

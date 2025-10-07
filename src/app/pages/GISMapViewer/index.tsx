@@ -1,15 +1,15 @@
-import {useCallback, useEffect, useMemo, useRef, useState} from "react";
-import {Slider} from "antd";
-import {Col, Container, Row} from "react-bootstrap";
-import {BaseHelmet, ConfigurationText, HomeTitle} from "../../components";
-import {DB_STATE} from "../../utils/mocks/options";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Slider } from "antd";
+import { Col, Container, Row } from "react-bootstrap";
+import { BaseHelmet, ConfigurationText, HomeTitle } from "../../components";
+import { DB_STATE } from "../../utils/mocks/options";
 import WaterQualityMap from "./WaterQualityMap";
-import {debounce} from "lodash";
+import { debounce } from "lodash";
 // import html2canvas from "html2canvas";
-import ConfirmScreenshotModal, {TakePhotoModalAction,} from "./ConfirmScreenshotModal";
-import {ADWRService} from "../../services";
-import {useConfiguration} from "../../contexts";
-import {useFetchCommunities} from "../../hooks";
+import ConfirmScreenshotModal, { TakePhotoModalAction, } from "./ConfirmScreenshotModal";
+import { ADWRService } from "../../services";
+import { useConfiguration } from "../../contexts";
+import { useFetchCommunities } from "../../hooks";
 
 export type StateKey = "All" | "NT" | "WA" | "SA" | "NSW" | "VIC";
 export type GISMapViewerFilter = {
@@ -33,7 +33,7 @@ const GISMapViewerPage = () => {
     locationType: null,
     baseMap: "streets-navigation-vector",
   });
-  const {data: communities} = useFetchCommunities({hasAll: true});
+  const { data: communities } = useFetchCommunities({ hasAll: true });
   const [yearSlider, setYearSlider] = useState({
     minYear: 2008,
     maxYear: 2022,
@@ -42,8 +42,8 @@ const GISMapViewerPage = () => {
   const isAllState = !filter.state || filter.state === "All";
   const isAllLocationType =
     !filter.locationType || filter.locationType === "All";
-  const {configurations} = useConfiguration();
-  const {chartNote} = configurations.data;
+  const { configurations } = useConfiguration();
+  const { chartNote } = configurations.data;
 
   const filterCommunities = useMemo(() => {
     const data = communities.filter((item) => {
@@ -55,7 +55,7 @@ const GISMapViewerPage = () => {
     });
 
     // Add "All" option at the top
-    data.unshift({name: "Select Location", state: "All"} as any);
+    data.unshift({ name: "Select Location", state: "All" } as any);
 
     return data.map((item, index) => ({
       key: `${item.name}-${index}`,
@@ -72,7 +72,7 @@ const GISMapViewerPage = () => {
 
   const handleChangeFilter = (value: string, name: string) => {
     if (name === "state") {
-      setFilter((pre) => ({...pre, [name]: value, community: null}));
+      setFilter((pre) => ({ ...pre, [name]: value, community: null }));
       return;
     }
     if (name === "community") {
@@ -86,7 +86,7 @@ const GISMapViewerPage = () => {
         return;
       }
     }
-    setFilter((pre) => ({...pre, [name]: value}));
+    setFilter((pre) => ({ ...pre, [name]: value }));
   };
 
   const updateDebouncedYear = useMemo(
@@ -163,7 +163,7 @@ const GISMapViewerPage = () => {
       community: filter.community ?? "All",
       locationType: filter.locationType ?? "All",
     })
-      .then(({data}) => {
+      .then(({ data }) => {
         setCurrentYear(data.data.maxYear);
         setYearSlider(data.data);
       })
@@ -175,11 +175,10 @@ const GISMapViewerPage = () => {
 
   return (
     <div className="wjh-news">
-      <ConfirmScreenshotModal ref={modalRef} onConfirm={handleTakePhoto}/>
-      <BaseHelmet title="Map Viewer"/>
+      <ConfirmScreenshotModal ref={modalRef} onConfirm={handleTakePhoto} />
+      <BaseHelmet title="Map Viewer" />
       <Container>
-        <HomeTitle title="Map Viewer"/>
-        <ConfigurationText data={chartNote}/>
+        <HomeTitle title="Map Viewer" />
         {/* <Form>
           <Row className="w-100 mx-0">
             <Col md={4}>
@@ -236,6 +235,9 @@ const GISMapViewerPage = () => {
               />
             </Col>
           )}
+          <Col md={12}>
+            <ConfigurationText data={chartNote} style={{ marginTop: '12px' }} />
+          </Col>
         </Row>
       </Container>
     </div>

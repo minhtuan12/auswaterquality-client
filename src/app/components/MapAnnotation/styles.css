@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     gap: 3px;
-    padding: 8px 10px 8px 6px;
+    padding: 4px 6px 4px 6px;
     height: auto;
     border: 1px solid #d9d9d9;
     border-radius: 6px;
     background-color: #ffffff;
-    margin-bottom: 6px;
-    width: auto;
+    margin-bottom: 4px;
+    width: fit-content;
+}
+
+.at-horizontal {
+    flex-direction: row !important;
 }
 
 .at-item {

@@ -114,7 +114,7 @@ const Home = () => {
       .then(({ data }) => {
         setScatterCommunityData(data.data.adwg);
       })
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => {
         setScatterCommunityDataLoading(false);
       });
@@ -192,7 +192,6 @@ const Home = () => {
             </AntButton>
           </Space>
         </div>
-        <ConfigurationText data={chartNote} style={{marginTop: '10px'}}/>
         <ScatterCommunity
           data={scatterCommunityData}
           loading={scatterCommunityDataLoading}
@@ -209,6 +208,7 @@ const Home = () => {
             onChange={handleChange as any}
           />
         </div>
+        <ConfigurationText data={chartNote} style={{ marginTop: '12px' }} />
       </HomeWidget>
 
       <div className="wjh-globe">

@@ -451,7 +451,6 @@ const InteractiveDashboardPage = () => {
               <div>
                 {yearSlider.minYear !== yearSlider.maxYear && (
                   <div>
-                    <ConfigurationText data={chartNote} />
                     <Col
                       md={12}
                       style={{
@@ -525,6 +524,9 @@ const InteractiveDashboardPage = () => {
                           data={scatterCommunity.data}
                           loading={scatterCommunity.loading}
                         />
+                      </Col>
+                      <Col md={12}>
+                        <ConfigurationText data={chartNote} />
                       </Col>
                     </Row>
                     <Row>
