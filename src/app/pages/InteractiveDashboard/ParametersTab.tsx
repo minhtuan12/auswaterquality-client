@@ -66,7 +66,7 @@ const ParametersTab = ({
       .then(({ data }) => {
         setScatterCharts(data.data);
       })
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => {
         setScatterChartsLoading(false);
       });
@@ -92,7 +92,7 @@ const ParametersTab = ({
       .then(({ data }) => {
         setParameterChart(data.data);
       })
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => {
         setParameterChartLoading(false);
       });

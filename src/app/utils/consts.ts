@@ -4,9 +4,9 @@ export const EXPIRED_AT = "expiredAt";
 export const MAX_THUMBNAIL_SIZE = 2 * 1024 * 1024;
 export const MAX_COVER_SIZE = 2 * 1024 * 1024;
 export const WATER_COLOR_ANNOTATION = [
-  {color: '#008000', text: 'Fully compliant with ADWG guidelines'},
-  {color: '#ffff00', text: 'Not fully compliant with acceptability-based ADWG'},
-  {color: '#ff0000', text: 'Not fully compliant with health-based ADWG'},
+  { color: '#008000', text: 'Fully compliant with ADWG guidelines' },
+  { color: '#ffff00', text: 'Not fully compliant with acceptability-based ADWG' },
+  { color: '#ff0000', text: 'Not fully compliant with health-based ADWG' },
 ]
 export const TRIANGLE_MARKERS = {
   empty: `
@@ -28,25 +28,10 @@ export const TRIANGLE_MARKERS = {
 
   striped: `
   <div class="tri-card">
-  <svg class="triangle" viewBox="0 0 120 104" width="14" height="12"
+  <svg class="square" viewBox="0 0 80 80" width="11" height="11"
        xmlns="http://www.w3.org/2000/svg" role="img"
-       aria-label="Tam giác gạch xọc">
-    <defs>
-      <pattern id="stripes" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
-        <rect width="8" height="10" fill="rgba(255,255,255,0.6)"></rect>
-      </pattern>
-      <clipPath id="triClip2">
-        <polygon points="60,4 4,100 116,100"/>
-      </clipPath>
-    </defs>
-
-    <polygon points="60,4 4,100 116,100"
-             fill="#999"
-             stroke="none"
-             stroke-width="0"
-             stroke-linejoin="round"/>
-    <rect x="0" y="0" width="120" height="104"
-          fill="url(#stripes)" clip-path="url(#triClip2)"/>
+       aria-label="Hình vuông xám trơn">
+    <rect x="0" y="0" width="80" height="80" fill="#999" />
   </svg>
 </div>
   `,
@@ -77,7 +62,7 @@ export const TRIANGLE_MARKERS = {
 `
 };
 export const TRIANGLE_ANNOTATION = [
-  {icon: TRIANGLE_MARKERS['empty'], text: 'Data available, not publicly released'},
-  {icon: TRIANGLE_MARKERS['striped'], text: 'Data in process'},
-  {icon: TRIANGLE_MARKERS['dots'], text: 'Data request sent'},
+  { icon: TRIANGLE_MARKERS['empty'], text: 'Data available, not publicly released' },
+  { icon: TRIANGLE_MARKERS['striped'], text: 'Data in process' },
+  { icon: TRIANGLE_MARKERS['dots'], text: 'Data request sent' },
 ]

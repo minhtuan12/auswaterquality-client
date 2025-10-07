@@ -147,7 +147,6 @@ const EsrisMapViewer = (
 
   const currentState = filter.state ?? "All";
   const { center, zoom } = stateView[currentState];
-  console.log(gisMapData);
 
   const markersLayer = useMemo(
     () => (
