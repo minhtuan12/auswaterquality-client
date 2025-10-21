@@ -16,9 +16,9 @@ const processedData = (value: number | null | undefined): number | null => {
   return value === 0 || value === null || value === undefined ? null : value;
 };
 
-const isExist = (value?: number) => {
-  return value !== undefined || value !== null;
-};
+// const isExist = (value?: number) => {
+//   return value !== undefined || value !== null;
+// };
 
 const ParameterTrendChart = ({
   title = "",

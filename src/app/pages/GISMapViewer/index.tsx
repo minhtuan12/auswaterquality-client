@@ -26,7 +26,7 @@ const GISMapViewerPage = () => {
   const captureRef = useRef<HTMLDivElement>(null);
   const [currentYear, setCurrentYear] = useState<number>(YEAR);
   const [debouncedYear, setDebouncedYear] = useState<number>(YEAR);
-  const [jsonDataLoading] = useState<boolean>(false);
+  // const [jsonDataLoading] = useState<boolean>(false);
   const [filter, setFilter] = useState<GISMapViewerFilter>({
     state: null,
     community: null,

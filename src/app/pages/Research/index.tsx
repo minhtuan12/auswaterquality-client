@@ -35,6 +35,7 @@ const ResearchPage = () => {
     meta: { limit: 10, page: 1, total: 10 },
   });
   const [newsLoading, setNewsLoading] = useState(true);
+  console.log(newsLoading)
   const [researchLoading, setResearchLoading] = useState(true);
 
   useEffect(() => {

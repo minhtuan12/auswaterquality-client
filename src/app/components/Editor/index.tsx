@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { DeleteFilled } from "@ant-design/icons";
 import EditorWrapper from "./EditorWrapper";
 import { v4 as uuidv4 } from "uuid";
