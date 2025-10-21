@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.root h4 {
+    margin: 14px 0 6px;
+
+}

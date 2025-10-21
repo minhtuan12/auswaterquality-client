@@ -1,0 +1,19 @@
+.wjh-admin__news-editor .ql-video {
+    width: 100%;
+    height: 600px;
+}
+
+.wjh-admin__news-editor .ql-snow .ql-editor h5 {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+.wjh-admin__news-editor .ql-editor ul {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.wjh-admin__news-editor .ql-editor ul li,
+.wjh-admin__news-editor .ql-editor p {
+    font-size: 0.875rem;
+}

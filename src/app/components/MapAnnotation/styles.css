@@ -1,0 +1,44 @@
+.at-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 4px 6px 4px 6px;
+    height: auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+    width: fit-content;
+}
+
+.at-horizontal {
+    flex-direction: row !important;
+}
+
+.at-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.at-circle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.at-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .at-container {
+        display: none;
+    }
+
+    .at-mobile {
+        display: flex;
+    }
+}

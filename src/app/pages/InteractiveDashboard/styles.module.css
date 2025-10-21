@@ -1,0 +1,89 @@
+.card_group {
+    padding: 12px 0;
+    background-color: #F5F5F5;
+    row-gap: 24px
+}
+
+.card_header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.bar_chart :global(.highcharts-container) {
+    height: 300px !important;
+}
+
+.scatter_community :global(.highcharts-container) {
+    height: 800px !important;
+}
+
+.wjh_interactive_dashboard_select :global(.ant-select-selection-placeholder) {
+    font-size: 0.75rem;
+}
+
+.interactive_dashboard_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.interactive_dashboard_filter {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.interactive_dashboard_data {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 1440px) {
+    .interactive_dashboard_filter {
+        width: 25% !important;
+        flex: 1;
+    }
+
+    .interactive_dashboard_data {
+        width: 70% !important;
+    }
+
+    .wjh_interactive_dashboard_select :global(.ant-select-selection-placeholder) {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .interactive_dashboard_filter {
+        width: 30%;
+        flex: 1;
+        margin-top: 0;
+    }
+
+    .interactive_dashboard_data {
+        width: 70%;
+        margin-top: 0;
+    }
+}
+
+.interactive_dashboard_filter_card {
+    position: sticky;
+    top: 150px
+}
+
+.interactive_dashboard_filter_card_inner {
+    background: #f5f5f5;
+    border-radius: 16px;
+    padding: 8px 16px
+}

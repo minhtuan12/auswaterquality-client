@@ -1,0 +1,36 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6e7274;
+}
+
+.root :global(.ant-progress-outer) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+}
+
+.root :global(.ant-progress-text) {
+    margin-left: 0;
+    display: block;
+    width: 100% !important;
+}
+
+.progress_format {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress_format_title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #6e7274;
+}

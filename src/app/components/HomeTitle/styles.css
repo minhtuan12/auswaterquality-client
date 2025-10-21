@@ -1,0 +1,8 @@
+.wjh-home-title {
+    padding: 32px 0;
+}
+
+.wjh-home-title__text {
+    color: var(--bs-primary);
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+export const routeDefine = {
+  home: "/",
+  detail: "/detail",
+  aboutADWR: "/about-adwr",
+  aboutPeople: "/about-people",
+  waterQualityGuidelines: "/water-quality-guidelines",
+  research: "/research",
+  newsAndEvents: "/news-and-events",
+  gisMapViewer: "/gis-map-viewer",
+  interactiveDashboard: "/interactive-dashboard",
+  accessData: "/access-data",
+  privacyCopyrightDisclaimer: "/privacy-copyright-disclaimer",
+  underConstructor: "/under-constructor",
+  login: "/login",
+};
+
+export const routeAdminDefine = {
+  dashboard: "/admin",
+  newsList: "/admin/news",
+  newsCreate: "/admin/news/create",
+  newsEdit: "/admin/news/:id/edit",
+  eventsList: "/admin/events",
+  eventsCreate: "/admin/events/create",
+  eventsEdit: "/admin/events/:id/edit",
+  researchList: "/admin/research",
+  researchCreate: "/admin/research/create",
+  researchEdit: "/admin/research/:id/edit",
+  userList: "/admin/users",
+  userCreate: "/admin/users/create",
+  peoples: "/admin/people",
+  role: "/admin/role",
+  configuration: "/admin/configuration",
+};

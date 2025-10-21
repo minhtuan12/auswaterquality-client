@@ -1,0 +1,104 @@
+#map-modal {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    min-height: 200px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 1.5rem;
+    pointer-events: none;
+    top: 0;
+    transition: all .3s ease;
+    width: 600px;
+    z-index: 1
+}
+
+#map-modal.show {
+    opacity: 1;
+    pointer-events: auto
+}
+
+#map-modal .map-modal-header {
+    height: 150px;
+    padding-bottom: 1rem;
+    position: relative;
+    text-align: right
+}
+
+#map-modal .map-modal-header .wjh-globe-modal__cover {
+    height: 100%;
+    left: -1.5rem;
+    overflow: hidden;
+    position: absolute;
+    top: -1.5rem;
+    width: calc(100% + 3rem)
+}
+
+#map-modal .map-modal-header #btn-modal-close {
+    position: relative
+}
+
+#map-modal #map-modal-body {
+    max-height: 180px;
+    overflow-y: auto
+}
+
+#map-modal #map-modal-body h3 {
+    color: #116aab;
+    margin-bottom: 1rem
+}
+
+#map-modal #map-modal-body p:last-child {
+    margin-bottom: 0
+}
+
+/* Carousel */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicators {
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: #1890ff;
+}
+
+.slide-content {
+    font-size: 16px;
+    height: 100%
+}

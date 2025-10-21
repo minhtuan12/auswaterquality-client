@@ -1,0 +1,75 @@
+/* BEGIN: HomeBanner */
+.wjh-home__banner {
+    position: relative;
+}
+
+.wjh-home__banner-img {
+    width: 100%;
+    height: 225px;
+}
+
+.wjh-home__banner-video {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+.wjh-home__banner-ribbon {
+    background: rgba(255, 255, 255, 0.7);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.wjh-home__banner-ribbon>h5 {
+    font-size: 16px;
+    color: var(--wjh-banner-text);
+    font-family: "Abril Fatface", serif;
+}
+
+.wjh-home__banner-ribbon>p {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--wjh-banner-text);
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 576px) {
+    .wjh-home__banner-ribbon>h5 {
+        font-size: 20px;
+    }
+
+    .wjh-home__banner-ribbon>p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .wjh-home__banner-img {
+        height: 425px;
+    }
+
+    .wjh-home__banner-ribbon {
+        height: 150px;
+    }
+
+    .wjh-home__banner-ribbon>h5 {
+        font-size: 46px;
+    }
+
+    .wjh-home__banner-ribbon>p {
+        font-size: 30px;
+    }
+}
+
+/* END: HomeBanner */

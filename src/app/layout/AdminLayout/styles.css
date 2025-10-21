@@ -1,0 +1,19 @@
+.wjh-admin__header-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px
+}
+
+.wjh-admin__header-logo-img {
+    width: 100%;
+}
+
+.wjh-admin__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wjh-admin__user-popup {
+    min-width: 100px;
+}

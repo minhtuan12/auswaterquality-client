@@ -1,0 +1,25 @@
+.root {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background: white;
+    border-radius: 6px;
+}
+
+.title {
+    font-weight: 600;
+    white-space: nowrap;
+    height: 32px;
+    padding: 0 6px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    border-right: 0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.root :global(.ant-select-selector) {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}

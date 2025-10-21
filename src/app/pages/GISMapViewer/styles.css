@@ -1,0 +1,133 @@
+.wjh-water-map {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #ccc;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.wjh-water-map__no-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #116aab;
+    border-radius: 16px;
+    padding: 12px;
+    min-height: 625px;
+    gap: 10px;
+}
+
+.wjh-water-map__main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.wjh-water-map__details {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    background: #C2E3CB;
+}
+
+.wjh-water-map__details-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.wjh-water-map__details-title {
+    padding: 12px 12px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wjh-water-map__details-content {
+    padding: 0 10px 10px;
+    font-size: 14px;
+}
+
+.wjh-water-map__details-content-divider {
+    margin: 12px 0;
+}
+
+.wjh-water-map__details-content p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.wjh-water-map__details .highcharts-container {
+    height: auto !important;
+}
+
+.wjh-esris-popup-content {
+    margin: 6px 0 !important
+}
+
+:root {
+    --tri-size: 14px;
+    --stroke: #222;
+    --bg: #ffffff;
+}
+
+.tri-row {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+}
+
+.tri-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+svg.triangle {
+    width: var(--tri-size);
+    height: calc(var(--tri-size) * 0.86);
+    display: block;
+}
+
+.label {
+    font-size: 14px;
+    color: #333;
+}
+
+.tri-card svg.triangle {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
+}
+
+.stroke-color {
+    --stroke: #676767;
+}
+
+.triangle-annotaion {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .wjh-water-map {
+        flex-direction: row;
+    }
+
+    .wjh-water-map__main {
+        width: 70%;
+    }
+
+    .wjh-water-map__details {
+        width: calc(30% - 10px);
+        min-height: 600px;
+    }
+
+    .wjh-water-map__details-inner {
+        height: 600px;
+    }
+}
