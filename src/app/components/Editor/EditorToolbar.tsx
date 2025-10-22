@@ -38,6 +38,22 @@ Font.whitelist = [
 ];
 Quill.register(Font, true);
 
+// 🆕 Font size whitelist
+const fontSizeArr = [
+  "8px",
+  "9px",
+  "10px",
+  "12px",
+  "14px",
+  "16px",
+  "20px",
+  "24px",
+  "32px",
+];
+const Size = Quill.import("attributors/style/size");
+Size.whitelist = fontSizeArr;
+Quill.register(Size, true);
+
 export const EditorToolbar = ({ uniqueId }: any) => (
   <div id={`toolbar${uniqueId ? "-" + uniqueId : ""}`}>
     <span className="ql-formats">
@@ -49,6 +65,13 @@ export const EditorToolbar = ({ uniqueId }: any) => (
         <option value="helvetica">Helvetica</option>
         <option value="lucida">Lucida</option>
       </select>
+
+      <select className="ql-size" defaultValue="14px">
+        {fontSizeArr.map((size) => (
+          <option key={size} value={size}>{size}</option>
+        ))}
+      </select>
+
       <select className="ql-header" defaultValue="6">
         <option value="1">Heading 1</option>
         <option value="2">Heading 2</option>
