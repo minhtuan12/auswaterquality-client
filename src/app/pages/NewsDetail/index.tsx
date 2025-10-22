@@ -39,7 +39,7 @@ const NewsContent = ({ data }: any) => {
               <div
                 dangerouslySetInnerHTML={{
                   __html: b.isSection
-                    ? `<details><summary>${b.title || "Untitled"}</summary>${b.content}</details><br/>`
+                    ? `<details contenteditable="false"><summary>${b.title || "Untitled"}</summary>${b.content}</details><br/>`
                     : `${b.content}<br/>`
                 }}
                 className="wjh-static-page"
