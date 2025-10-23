@@ -70,10 +70,11 @@ const EditorWrapper = ({ uniqueId = "", ...props }: any) => {
       ) : <>
         <EditorToolbar uniqueId={uniqueId} />
         <ReactQuill
-          {...props}
           ref={quillRef}
           theme="snow"
           modules={modules}
+          value={editorContent}
+          onChange={handleChange}
         />
       </>}
     </div>

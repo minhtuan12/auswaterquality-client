@@ -39,7 +39,7 @@ const Editor = ({ ...props }: any) => {
     const addEditor = () => {
         setBlocks(prev => [
             ...prev,
-            { _id: uuidv4(), content: "", isSection: false },
+            { _id: uuidv4(), content: "", isSection: false, title: "" },
         ]);
     };
 
